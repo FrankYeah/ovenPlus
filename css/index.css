@@ -1,0 +1,139 @@
+/* 1 */
+.one-oven-background{
+    height: 580px;
+    position: relative;
+    background: url(../img/1-ovenplus-cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
+
+.one-logo-div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 10%;
+    top: 40%;
+}
+
+.one-logo{
+    width: 400px;
+    height: 48px;
+    background: url(../img/1-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
+
+.one-text{
+    font-size: 33px;
+    font-weight: bold;
+    font-family: DINweb;
+    color: #ffffff;
+}
+
+
+/* 2 */
+
+.two-up-div{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-up-left{
+    width: 385px;
+    height: 414px;
+    padding: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.two-up-left-header{
+    font-family: Branding;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    color: #e24242;
+    margin-bottom: 0px;
+}
+
+.two-up-left-line{
+    width: 49px;
+    height: 6px;
+    background-color: #e24242;
+    margin-left: -10px;
+}
+
+.two-up-left-text{
+    font-family: DINweb;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0.1px;
+    text-align: justify;
+    color: #262628;
+}
+
+.two-up-right{
+    width: 385px;
+    height: 414px;
+    padding: 2.5%;
+    background: url(../img/2-oven-open.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
+
+/* 2.5 */
+
+.two-rotate-div{
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-left-button{
+    cursor: pointer;
+    color: #e24242;
+}
+
+.two-right-button{
+    cursor: pointer;
+    color: #e24242;
+}
+
+.two-each-item{
+    background-color: #e24242;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
