@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: center;
     right: 10%;
-    top: 40%;
+    top: 30%;
 }
 
 .one-logo{
@@ -36,6 +36,26 @@
     font-weight: bold;
     font-family: DINweb;
     color: #ffffff;
+    width: 400px;
+    text-align: center;
+}
+
+.one-input{
+    width: 400px;
+    opacity: 0.8;
+    font-size: 24px;
+    padding: 1px 0px 1px 4px;
+}
+
+.one-submit{
+    width: 70px;
+    font-size: 24px;
+    background-color: #e24242;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 2px 28px;
+    text-align: center;
 }
 
 
@@ -210,12 +230,165 @@
     background-position-y: center;
 }
 
+/* 3 */
 
+.three-head-div{
+    padding-right: 400px;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 450px;
+    height: 450px;
+}
 
+.three-head-h{
+    font-size: 40px;
+    color: #e24242;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
 
+.three-head-line{
+    width: 49px;
+    height: 6px;
+    background-color: #e24242;
+    margin-left: -10px;
+}
 
+.three-head-text{
+    font-family: DINweb;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.1px;
+    color: #262628;
+}
 
+/* 4 */
 
+.four-up-background{
+    width: 100%;
+    height: 700px;
+    background: url(../img/4-background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.four-up-head{
+    width: 612px;
+    font-family: Branding;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #e24242;
+}
 
+.four-up-text{
+    width: 612px;
+    font-family: DINweb;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #ffffff;
+}
 
+.four-up-img{
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    background: url(../img/4-fake-oven.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
+
+/* 4.1 */
+
+.four-one-div{
+    display: flex;
+    height: 580px;
+    width: 100%;
+}
+
+.four-one-left-div{
+    width: 33%;
+    height: 100%;
+    background-color: #e24242;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-one-left-img{
+    width: 120px;
+    height: 120px;
+    background: url(../img/4-non-smoke-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
+
+.four-one-left-head{
+    font-family: DINweb;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #ffffff;
+    margin: 16px 0 4px;
+}
+
+.four-one-left-text{
+    width: 75%;
+    padding:0px 12.5%;
+    font-family: DINweb;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.1px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.four-one-right-img{
+    width: 67%;
+    height: 100%;
+    background: url(../img/4-smokeless.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
+
+.four-two-right-img{
+    width: 67%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
+
+.four-two-left-img{
+    width: 120px;
+    height: 120px;
+    background: url(../img/4-non-smoke-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
