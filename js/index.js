@@ -1,10 +1,8 @@
 $('.owl-carousel').owlCarousel({
     items:4,
     loop:true,
-    mouseDrag: false,
-    touchDrag: false,
-    pullDrag: false,
-    center:true,
+    merge:true,
+    margin:10,
     autoWidth:true,
     URLhashListener:true,
     autoplayHoverPause:true,
@@ -13,7 +11,6 @@ $('.owl-carousel').owlCarousel({
     responsiveRefreshRate: 0,
     responsive: {
       0: {
-        margin: 0,
         autoWidth: false
       },
       992: {

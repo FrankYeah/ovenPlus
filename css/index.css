@@ -98,7 +98,7 @@
 
 .two-rotate-div{
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 850px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -109,24 +109,106 @@
 .two-left-button{
     cursor: pointer;
     color: #e24242;
+    /* padding-right: 10px; */
 }
 
 .two-right-button{
     cursor: pointer;
     color: #e24242;
+    /* padding-left: 10px; */
 }
 
 .two-each-item{
-    background-color: #e24242;
+
 }
 
+.two-rotate-img-upper-pizza{
+    /* width: 213px; */
+    height: 152px;
+    background: url(../img/2-pizza-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
 
+.two-rotate-img-down-pizza{
+    /* width: 213px; */
+    height: 152px;
+    background: url(../img/2-pizza-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
 
+.two-rotate-img-upper-steak{
+    /* width: 213px; */
+    height: 152px;
+    background: url(../img/2-steak-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
 
+.two-rotate-img-down-steak{
+    /* width: 213px; */
+    height: 152px;
+    background: url(../img/2-steak-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
 
+.two-rotate-img-upper-burger{
+    /* width: 213px; */
+    height: 152px;
+    background: url(../img/2-burger-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
 
+.two-rotate-img-down-burger{
+    /* width: 213px; */
+    height: 152px;
+    background: url(../img/2-burger-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
 
+.two-rotate-img-upper-salmon{
+    /* width: 213px; */
+    height: 152px;
+    background: url(../img/2-salmon-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
 
+.two-rotate-img-down-salmon{
+    /* width: 213px; */
+    height: 152px;
+    background: url(../img/2-salmon-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
 
 
 
