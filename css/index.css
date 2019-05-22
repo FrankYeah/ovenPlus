@@ -320,6 +320,7 @@
 }
 
 .four-one-left-div{
+    z-index: 1;
     width: 33%;
     height: 100%;
     background-color: #e24242;
@@ -372,6 +373,8 @@
     background-position-y: center;
 }
 
+/* 4.2 */
+
 .four-two-right-img{
     width: 67%;
     height: 100%;
@@ -382,13 +385,51 @@
     background-position-y: center;
 }
 
-.four-two-left-img{
-    width: 120px;
-    height: 120px;
-    background: url(../img/4-non-smoke-icon.svg);
+.four-two-left-div{
+    position: relative;
+    width: 67%;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
     background-position-y: center;
 }
+
+.four-two-left-video{
+    position: absolute;
+    width: auto;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.four-two-left-img{
+    width: 120px;
+    height: 120px;
+    background: url(../img/4-energy-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
+
+/* 4.3 */
+
+.four-three-left-img{
+    width: 120px;
+    height: 120px;
+    background: url(../img/4-grill-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
+
+.four-three-right-img-div{
+    width: 67%;
+    height: 50%;
+}
+

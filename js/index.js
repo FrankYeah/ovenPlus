@@ -36,3 +36,4 @@ $('.two-right-button').click(function(){
     // rotateItem++
     $(".owl-carousel").trigger('next.owl.carousel')
 })
+
