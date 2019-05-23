@@ -19,6 +19,27 @@ $('.owl-carousel').owlCarousel({
     }
 });
 
+$('.owl-carousels').owlCarousel({
+  items:4,
+  loop:true,
+  merge:true,
+  margin:10,
+  autoWidth:true,
+  URLhashListener:true,
+  autoplayHoverPause:true,
+  startPosition: 'URLHash',
+  dotsContainer: '.custom-dots',
+  responsiveRefreshRate: 0,
+  responsive: {
+    0: {
+      autoWidth: false
+    },
+    992: {
+      autoWidth: false
+    }
+  }
+});
+
 var rotateItem = 1;
 
 $('.two-left-button').click(function(){
@@ -37,3 +58,6 @@ $('.two-right-button').click(function(){
     $(".owl-carousel").trigger('next.owl.carousel')
 })
 
+$(window).load(function() {
+  $("#container1").twentytwenty();
+});

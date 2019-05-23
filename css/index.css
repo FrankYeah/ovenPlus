@@ -417,6 +417,16 @@
 
 /* 4.3 */
 
+.four-three-left-div{
+    z-index: 1;
+    width: 55%;
+    height: 100%;
+    background-color: #e24242;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
 .four-three-left-img{
     width: 120px;
     height: 120px;
@@ -429,7 +439,354 @@
 }
 
 .four-three-right-img-div{
-    width: 67%;
-    height: 50%;
+    width: 45%;
+    height: 100%;
 }
 
+/* 4.4 */
+
+.four-four-chef-background{
+    position: relative;
+    width: 100%;
+    height: 900px;
+}
+
+.four-four-black-back{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 372px;
+    background-color: black;
+}
+
+.four-four-text-close{
+    width: 34%;
+    padding-right: 13%;
+}
+
+.four-four-black-head-word{
+    /* width: 443px; */
+    font-family: DINweb;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+}
+
+.four-four-black-head-text{
+    /* width: 437px; */
+    font-family: DINweb;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.1px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.four-four-chef-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../img/4-chef.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+    margin-top: 30px;
+}
+
+.four-five-red-brush{
+    position: absolute;
+    bottom: -9%;
+    width: 100%;
+    height: 90px;
+    background: url(../img/4-red-brush.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
+
+/* 4.5 */
+
+.four-five-red-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e24242;
+    width: 100%;
+    height: 300px;
+}
+
+.four-five-head-text{
+    font-family: Branding;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.four-five-input{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border: solid 1px #ffffff;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    color: white;
+    width: 25%;
+    padding-left: 6px;
+}
+
+.four-five-submit{
+    font-family: DINweb;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #3c3c3b;
+    padding: 5px 25px;
+    border-radius: 6px;
+}
+
+
+/* 5.1 */
+
+.five-one-video{
+    width: 100%;
+    height: 700px;
+    background-color: antiquewhite;
+}
+
+/* 5.2 */
+
+.five-two-background{
+    position: relative;
+    width: 100%;
+    height: 624px;
+    background-color: #262628;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.five-two-img-one{
+
+}
+
+.five-two-center-div{
+    width: 30%;
+}
+
+.five-two-center-head{
+    font-family: Branding;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #e24242;
+}
+
+.five-two-center-text{
+    font-family: DINweb;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.1px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.five-two-img-two{
+
+}
+
+.five-two-red-brush{
+    margin: auto;
+    position: absolute;
+    bottom: -9%;
+    width: 100%;
+    height: 140px;
+    background: url(../img/4-red-brush.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.five-two-spec{
+    font-family: Branding;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* 6.1 */
+
+.six-one-cook-thing{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.six-one-cook-one{
+    width: 600px;
+    height: 175px;
+    background: url(../img/6-product-outline.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
+
+/* 6.2 */
+
+.six-two-rotate-div{
+    margin: 0 auto;
+    max-width: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.six-two-left-button{
+    cursor: pointer;
+    color: #e24242;
+}
+
+.six-two-each-item{
+
+}
+
+.six-two-right-button{
+    cursor: pointer;
+    color: #e24242;
+}
+
+.six-two-rotate-img-holes{
+    height: 152px;
+    background: url(../img/6-holes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
+
+.six-two-rotate-img-button{
+    height: 152px;
+    background: url(../img/6-button.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
+
+.six-two-rotate-img-desk{
+    height: 152px;
+    background: url(../img/6-desk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-position-y: center;
+}
+
+/* 6.3 */
+
+.six-three-gray{
+    height: 258px;
+    width: 70%;
+    margin: auto;
+    background-color: #eeeeee;
+
+}
+
+/* 6.4 */
+
+.six-four-background{
+    background-color: black;
+}
+
+.six-four-black-brush{
+
+}
+
+.six-four-three-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.six-four-left-icon{
+    color: white;
+}
+
+
+.six-four-center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.six-four-center-text{
+    color: #ffffff;
+}
+
+.six-four-center-mail{
+    display: flex;
+}
+
+.six-four-center-input{
+    border: solid 1px #ffffff;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.six-four-center-submit{
+    font-family: DINweb;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #e24242;
+    padding: 5px 14px;
+}
+
+
+.six-four-right{
+
+}
+
+.six-four-right-connect-text{
+    color: #ffffff;
+}
+
+.six-four-right-social{
+
+}
+
+.six-four-right-youtube{
+
+}
+
+.six-four-right-fb{
+    
+}
