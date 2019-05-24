@@ -58,6 +58,24 @@ $('.two-right-button').click(function(){
     $(".owl-carousel").trigger('next.owl.carousel')
 })
 
+
+
+$('.six-two-left-button').click(function(){
+  // if(rotateItem == 0){
+  //     return
+  // }
+  // rotateItem--
+  $(".owl-carousel").trigger('prev.owl.carousel')
+})
+
+$('.six-two-right-button').click(function(){
+  // if(rotateItem == 2){
+  //     return
+  // }
+  // rotateItem++
+  $(".owl-carousel").trigger('next.owl.carousel')
+})
+
 $(window).load(function() {
   $("#container1").twentytwenty();
 });

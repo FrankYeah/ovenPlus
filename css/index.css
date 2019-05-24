@@ -7,7 +7,6 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    background-position-y: center;
 }
 
 .one-logo-div{
@@ -27,7 +26,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
     background-position-y: center;
 }
 
@@ -111,7 +109,6 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    background-position-y: center;
 }
 
 /* 2.5 */
@@ -128,14 +125,22 @@
 
 .two-left-button{
     cursor: pointer;
-    color: #e24242;
-    /* padding-right: 10px; */
+    padding: 12px;
+    background: url(../img/left-button.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 .two-right-button{
     cursor: pointer;
-    color: #e24242;
-    /* padding-left: 10px; */
+    padding: 12px;
+    background: url(../img/right-button.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 .two-each-item{
@@ -150,7 +155,6 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    background-position-y: center;
 }
 
 .two-rotate-img-down-pizza{
@@ -160,7 +164,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
     background-position-y: center;
 }
 
@@ -172,7 +175,6 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    background-position-y: center;
 }
 
 .two-rotate-img-down-steak{
@@ -182,7 +184,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
     background-position-y: center;
 }
 
@@ -194,7 +195,6 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    background-position-y: center;
 }
 
 .two-rotate-img-down-burger{
@@ -204,7 +204,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
     background-position-y: center;
 }
 
@@ -216,7 +215,6 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    background-position-y: center;
 }
 
 .two-rotate-img-down-salmon{
@@ -226,7 +224,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
     background-position-y: center;
 }
 
@@ -272,7 +269,6 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    background-position-y: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -308,7 +304,6 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    background-position-y: center;
 }
 
 /* 4.1 */
@@ -337,7 +332,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
     background-position-y: center;
 }
 
@@ -370,7 +364,6 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    background-position-y: center;
 }
 
 /* 4.2 */
@@ -382,7 +375,6 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    background-position-y: center;
 }
 
 .four-two-left-div{
@@ -392,7 +384,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
     background-position-y: center;
 }
 
@@ -411,7 +402,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
     background-position-y: center;
 }
 
@@ -434,7 +424,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
     background-position-y: center;
 }
 
@@ -493,26 +482,26 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    background-position-y: center;
     margin-top: 30px;
 }
 
 .four-five-red-brush{
     position: absolute;
-    bottom: -9%;
+    bottom: 0px;
+    left: 0px;
     width: 100%;
     height: 90px;
-    background: url(../img/4-red-brush.jpg);
+    background: url(../img/4-red-brush.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
-    background-position-y: center;
+    background-position-y: top;
 }
 
 /* 4.5 */
 
 .four-five-red-div{
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -520,6 +509,7 @@
     background-color: #e24242;
     width: 100%;
     height: 300px;
+
 }
 
 .four-five-head-text{
@@ -538,7 +528,7 @@
     color: white;
     color: white;
     width: 25%;
-    padding-left: 6px;
+    padding: 6px;
 }
 
 .four-five-submit{
@@ -607,15 +597,14 @@
 .five-two-red-brush{
     margin: auto;
     position: absolute;
-    bottom: -9%;
+    bottom: 0%;
     width: 100%;
-    height: 140px;
-    background: url(../img/4-red-brush.jpg);
+    height: 200px;
+    background: url(../img/4-red-brush.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
-    background-position-y: center;
+    background-position-y: top;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -628,6 +617,7 @@
     letter-spacing: 3px;
     text-align: center;
     color: #ffffff;
+    margin-top: 80px;
 }
 
 /* 6.1 */
@@ -648,7 +638,6 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    background-position-y: center;
 }
 
 /* 6.2 */
@@ -666,7 +655,12 @@
 
 .six-two-left-button{
     cursor: pointer;
-    color: #e24242;
+    padding: 12px;
+    background: url(../img/left-button.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 .six-two-each-item{
@@ -675,7 +669,12 @@
 
 .six-two-right-button{
     cursor: pointer;
-    color: #e24242;
+    padding: 12px;
+    background: url(../img/right-button.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 .six-two-rotate-img-holes{
@@ -684,7 +683,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: center;
     background-position-y: center;
 }
 
@@ -695,7 +693,6 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    background-position-y: center;
 }
 
 .six-two-rotate-img-desk{
@@ -705,6 +702,14 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+}
+
+.six-two-rotate-img-side{
+    height: 152px;
+    background: url(../img/6-side.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
     background-position-y: center;
 }
 
@@ -718,10 +723,23 @@
 
 }
 
+/* 6.3.5 */
+
+.six-three-five-black{
+    width: 100%;
+    height: 90px;
+    background: url(../img/4-background-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+}
+
 /* 6.4 */
 
 .six-four-background{
     background-color: black;
+    padding: 35px 0px;
 }
 
 .six-four-black-brush{
@@ -757,6 +775,8 @@
 .six-four-center-input{
     border: solid 1px #ffffff;
     background-color: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    padding-left: 8px;
 }
 
 .six-four-center-submit{
@@ -780,13 +800,29 @@
 }
 
 .six-four-right-social{
-
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .six-four-right-youtube{
-
+    width: 26px;
+    height: 19px;
+    background: url(../img/6-youtube.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
 }
 
 .six-four-right-fb{
-    
+    width: 14px;
+    height: 26px;
+    background: url(../img/6-fb.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
 }
