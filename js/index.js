@@ -80,21 +80,21 @@ $(window).load(function() {
   $("#container1").twentytwenty();
 });
 
-// 表單輸入
+// 表單輸入1
 
 $(function() {
   $('#submitMailOne').on('click', function() {
-    
+    $('.seven-flip-book-background').css('visibility', 'visible');
     // 姓名
     var emailOne = $('#inputMailOne').val() || '未填寫';
 
     // post
     var data = {
-      'emailAddress': emailOne
+      'entry.17718450': emailOne
     };
     $.ajax({
       type: 'POST',
-      url: 'https://docs.google.com/forms/d/e/1FAIpQLScf00MUfvwuWPAG38Mgb-gp4n-cMCUEFmUGdAijbtqcC1pfng/formResponse',
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLSdJO_sHYp7DoTFGFNdEuAaC4Xu0l8kVJDOrCxx-epu14QWyHA/formResponse',
       data: data,
       contentType: 'application/json',
       dataType: 'jsonp',
@@ -105,10 +105,10 @@ $(function() {
     
   });
 
-
+// 表單輸入2
 
   $('#submitMailFour').on('click', function() {
-    
+    $('.seven-flip-book-background').css('visibility', 'visible');
     // mail
     var emailOne = $('#inputMailFour').val() || '未填寫';
 
@@ -128,10 +128,10 @@ $(function() {
     
   });
 
-
+// 表單輸入3
 
   $('#submitMailSix').on('click', function() {
-    
+    $('.seven-flip-book-background').css('visibility', 'visible');
     // 姓名
     var emailOne = $('#inputMailSix').val() || '未填寫';
 
@@ -153,4 +153,39 @@ $(function() {
   });  
 
 });
+
+// 下載
+
+$('#downloadPDF').on('click', function() {
+  window.open('https://drive.google.com/open?id=1nsJdPHWhqDJ_Sjgiw0qv1OVKA-1zrcsU');
+});
+
+
+// 翻書
+
+$('#flipBook').turn({gradients: true, acceleration: true});
+alert("The current display is: " + $("#flipBook").turn("page"));
+
+// 上一頁
+$('#flipPrevPage').on('click', function() {
+  $('#flipCurrentPage').text($("#flipBook").turn("page")-1 + '-' + $("#flipBook").turn("page"));
+  if($("#flipBook").turn("page") == 0){
+    $('#flipCurrentPage').text('1');
+  }
+})
+
+// 下一頁
+$('#flipNextvPage').on('click', function() {
+  $('#flipCurrentPage').text($("#flipBook").turn("page")-1 + '-' + $("#flipBook").turn("page"));
+  if($("#flipBook").turn("page") == 22){
+    $('#flipCurrentPage').text('22');
+  }
+})
+
+// 關閉視窗
+$('#flipCancel').on('click', function() {
+  console.log('jojo')
+  $('.seven-flip-book-background').css('visibility', 'hidden');
+})
+
 

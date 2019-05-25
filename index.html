@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>overPlus</title>
     <!-- <link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css"> -->
+    <script src="./turn/modernizr.2.5.3.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/css/twentytwenty.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/css/twentytwenty.css">
     <link href="./css/index.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="./owlcarousel/owl.theme.default.css">    
+    <link rel="stylesheet" href="./owlcarousel/owl.theme.default.css">
 </head>
 <body style="margin:0px;">
     <!-- 1 -->
@@ -188,21 +189,42 @@
         </div>
     </div>
     <!-- 7 翻書 -->
-    <div style="visibility: hidden;" class="seven-flip-book-background">
+    <div class="seven-flip-book-background">
         <div class="seven-flip-book-inside">
             <div class="seven-flip-book-up">
-                <div class="seven-flip-book-left-button"></div>
-                <div class="seven-flip-book-main-flip">
-                    
+                <div id="flipPrevPage" class="seven-flip-book-left-button"></div>
+                <div id="flipBook" class="seven-flip-book-main-flip">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/1.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/2.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/3.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/4.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/5.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/6.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/7.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/8.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/9.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/10.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/11.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/12.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/13.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/14.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/15.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/16.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/17.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/18.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/19.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/20.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/21.jpg" alt="">
+                    <img class="flip-book-img" src="./img/oven-plus_recipe/22.jpg" alt="">
                 </div>
-                <div class="seven-flip-book-right-button"></div>
+                <div id="flipNextvPage" class="seven-flip-book-right-button"></div>
             </div>
             <div class="seven-flip-book-center">
-                <div class="seven-flip-book-progress-count">1/22</div>
+                <div class="seven-flip-book-progress-count"><span id="flipCurrentPage">1</span>/22</div>
                 <div class="seven-flip-book-prgress-bar"></div>
-                <img class="seven-flip-book-download-button" src="./img/7-download-icon.svg" alt="download">
+                <img id="downloadPDF" class="seven-flip-book-download-button" src="./img/7-download-icon.svg" alt="download">
             </div>
-            <img class="seven-flip-book-down" class="seven-flip-book-cancel-icon" src="./img/7-cancel-icon.svg" alt="cancel">
+            <img id="flipCancel" class="seven-flip-book-down" class="seven-flip-book-cancel-icon" src="./img/7-cancel-icon.svg" alt="cancel">
         </div>
     </div>
 
@@ -212,7 +234,13 @@
         <img src="./img/4-ovenplus-web.png" alt="">
         <img src="./img/4-regular-oven-web.png" alt="">
     </div> -->
+
+
+    <!-- 輪播 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- 翻書 -->
+    <script src="./turn/turn.js"></script>
+    <!-- <script src="./turn/turn.min.js"></script> -->
     <!-- <script> src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.event.move.js"</script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.event.move.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/1.0.0/js/jquery.twentytwenty.js"></script> -->

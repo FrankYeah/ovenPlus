@@ -853,41 +853,66 @@
 }
 
 .seven-flip-book-inside{
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 95%;
 }
 
 /* 7 up */
 
 .seven-flip-book-up{
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 72%;
     height: 70%;
 }
 
 .seven-flip-book-left-button{
-
+    width: 34px;
+    height: 47px;
+    background: url(../img/7-white-left-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
 }
 
 .seven-flip-book-main-flip{
+	width: 520px;
+    height: 350px;
+    margin: auto;
+}
 
+.flip-book-img{
+    width: 300px;
+    height: 450px;
 }
 
 .seven-flip-book-right-button{
-
+    width: 34px;
+    height: 47px;
+    background: url(../img/7-white-right-arrow.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    cursor: pointer;
 }
 
 /* 7 center */
 
 .seven-flip-book-center{
     width: 100%;
-    height: 15%;
+    height: 10%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .seven-flip-book-progress-count{
-    width: 5%;
+    width: 10%;
     font-family: DINweb;
     font-size: 18px;
     font-weight: bold;
@@ -898,7 +923,7 @@
 }
 
 .seven-flip-book-prgress-bar{
-    width: 55%;
+    width: 50%;
     height: 10px;
     border-radius: 14px;
     border: solid 1px #ffffff;
@@ -915,8 +940,8 @@
 .seven-flip-book-down{
     display: block;
     margin: auto;
-    width: 15%;
-    height: 15%;
+    width: 10%;
+    height: 10%;
     text-align: center;
     cursor: pointer;
 }
