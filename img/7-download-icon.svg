@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="163" height="48" viewBox="0 0 163 48">
+    <defs>
+        <rect id="b" width="154.596" height="40" x=".374" rx="7"/>
+        <filter id="a" width="109.1%" height="135%" x="-4.5%" y="-12.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(4 2)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#E24242" xlink:href="#b"/>
+        </g>
+        <g fill="#FEFEFE">
+            <path d="M23.414 11v11.927l-3.892-3.245-1.28 1.537 6.172 5.145 6.172-5.145-1.28-1.537-3.892 3.245V11zM16 30.688h16.828v-2H16z"/>
+        </g>
+        <text fill="#FFF" font-family="DIN-Bold, DIN" font-size="20" font-weight="bold" letter-spacing=".06" transform="translate(4 2)">
+            <tspan x="38.05" y="27">DOWNLOAD</tspan>
+        </text>
+    </g>
+</svg>

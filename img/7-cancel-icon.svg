@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="76" height="101" viewBox="0 0 76 101">
+    <g fill="none" fill-rule="evenodd" transform="translate(-13)">
+        <circle cx="51" cy="38" r="38" fill="#FFF" fill-opacity=".3"/>
+        <path stroke="#FFF" stroke-width="3" d="M35.444 22.444l31.112 31.112M66.556 22.444L35.444 53.556"/>
+        <text fill="#FFF" font-family="DIN-Bold, DIN" font-size="18" font-weight="bold" letter-spacing="1">
+            <tspan x="14.319" y="100">CANCE</tspan> <tspan x="76.631" y="100" letter-spacing="2.7">L</tspan>
+        </text>
+    </g>
+</svg>

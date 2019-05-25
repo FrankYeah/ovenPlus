@@ -833,3 +833,91 @@
     background-position-y: center;
     cursor: pointer;
 }
+
+/* 7 翻書 */
+
+.seven-flip-book-background{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    opacity: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+
+.seven-flip-book-inside{
+    width: 80%;
+    height: 90%;
+}
+
+/* 7 up */
+
+.seven-flip-book-up{
+    width: 100%;
+    height: 70%;
+}
+
+.seven-flip-book-left-button{
+
+}
+
+.seven-flip-book-main-flip{
+
+}
+
+.seven-flip-book-right-button{
+
+}
+
+/* 7 center */
+
+.seven-flip-book-center{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seven-flip-book-progress-count{
+    width: 5%;
+    font-family: DINweb;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.11;
+    letter-spacing: 2.7px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.seven-flip-book-prgress-bar{
+    width: 55%;
+    height: 10px;
+    border-radius: 14px;
+    border: solid 1px #ffffff;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.seven-flip-book-download-button{
+    width: 10%;
+    cursor: pointer;
+}
+
+/* 7 down */
+
+.seven-flip-book-down{
+    display: block;
+    margin: auto;
+    width: 15%;
+    height: 15%;
+    text-align: center;
+    cursor: pointer;
+}
+
