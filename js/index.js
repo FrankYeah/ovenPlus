@@ -79,3 +79,78 @@ $('.six-two-right-button').click(function(){
 $(window).load(function() {
   $("#container1").twentytwenty();
 });
+
+// 表單輸入
+
+$(function() {
+  $('#submitMailOne').on('click', function() {
+    
+    // 姓名
+    var emailOne = $('#inputMailOne').val() || '未填寫';
+
+    // post
+    var data = {
+      'emailAddress': emailOne
+    };
+    $.ajax({
+      type: 'POST',
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLScf00MUfvwuWPAG38Mgb-gp4n-cMCUEFmUGdAijbtqcC1pfng/formResponse',
+      data: data,
+      contentType: 'application/json',
+      dataType: 'jsonp',
+      complete: function() {
+        alert('資料已送出！');
+      }
+    });
+    
+  });
+
+
+
+  $('#submitMailFour').on('click', function() {
+    
+    // mail
+    var emailOne = $('#inputMailFour').val() || '未填寫';
+
+    var data = {
+      'emailAddress': emailOne
+    };
+    $.ajax({
+      type: 'POST',
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLScf00MUfvwuWPAG38Mgb-gp4n-cMCUEFmUGdAijbtqcC1pfng/formResponse',
+      data: data,
+      contentType: 'application/json',
+      dataType: 'jsonp',
+      complete: function() {
+        alert('資料已送出！');
+      }
+    });
+    
+  });
+
+
+
+  $('#submitMailSix').on('click', function() {
+    
+    // 姓名
+    var emailOne = $('#inputMailSix').val() || '未填寫';
+
+    // post
+    var data = {
+      'emailAddress': emailOne
+    };
+    $.ajax({
+      type: 'POST',
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLScf00MUfvwuWPAG38Mgb-gp4n-cMCUEFmUGdAijbtqcC1pfng/formResponse',
+      data: data,
+      contentType: 'application/json',
+      dataType: 'jsonp',
+      complete: function() {
+        alert('資料已送出！');
+      }
+    });
+    
+  });  
+
+});
+
