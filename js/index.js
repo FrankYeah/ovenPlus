@@ -164,38 +164,81 @@ $('#downloadPDF').on('click', function() {
 // 翻書
 
 $('#flipBook').turn({gradients: true, acceleration: true});
-alert("The current display is: " + $("#flipBook").turn("page"));
+
+  // 點選翻頁圖片，也要改下面數字
+$('.seven-flip-book-inside').on('click', function(event) {
+  if($("#flipBook").turn("page") % 2 == 0){
+    $('#flipCurrentPage').text($("#flipBook").turn("page") + '-' + ($("#flipBook").turn("page")+1));
+  }else{
+    $('#flipCurrentPage').text(($("#flipBook").turn("page")-1) + '-' + $("#flipBook").turn("page"));
+  }
+  $('.seven-flip-book-progress-bar-inside').css('width', ($("#flipBook").turn("page")*4.55) + '%' );
+
+  if($("#flipBook").turn("page") == 1){
+    $('#flipCurrentPage').text('1');
+    $('.seven-flip-book-progress-bar-inside').css('width', '4.55%');
+  }
+  if($("#flipBook").turn("page") == 22){
+    $('#flipCurrentPage').text('22');
+    $('.seven-flip-book-progress-bar-inside').css('width', '100%');
+  }
+
+  if($("#flipBook").turn("page") == 20){
+    $('.seven-flip-book-progress-bar-inside').css('width', '95%');
+  }
+
+  event.stopPropagation();
+})
+
 
 // 上一頁
 $('#flipPrevPage').on('click', function() {
   $("#flipBook").turn("previous");
-  $('#flipCurrentPage').text($("#flipBook").turn("page")-1 + '-' + $("#flipBook").turn("page"));
+  $('#flipCurrentPage').text( ($("#flipBook").turn("page")-1) + '-' + $("#flipBook").turn("page"));
+  $('.seven-flip-book-progress-bar-inside').css('width', ($("#flipBook").turn("page")*4.55) + '%' );
+
   if($("#flipBook").turn("page") == 1){
     $('#flipCurrentPage').text('1');
+    $('#flipCurrentPage').text('1');
+    $('.seven-flip-book-progress-bar-inside').css('width', '4.55%');
   }
+
+  event.stopPropagation();
 })
 
 // 下一頁
 $('#flipNextvPage').on('click', function() {
+  console.log($("#flipBook").turn("page"))
   $("#flipBook").turn("next");
-  $('#flipCurrentPage').text($("#flipBook").turn("page")-1 + '-' + $("#flipBook").turn("page"));
+  $('#flipCurrentPage').text($("#flipBook").turn("page") + '-' + ($("#flipBook").turn("page") +1 ));
+  $('.seven-flip-book-progress-bar-inside').css('width', ($("#flipBook").turn("page")*4.55) + '%' );
+
+  if($("#flipBook").turn("page") == 20){
+    $('.seven-flip-book-progress-bar-inside').css('width', '95%');
+  }
+
   if($("#flipBook").turn("page") == 22){
     $('#flipCurrentPage').text('22');
+    $('.seven-flip-book-progress-bar-inside').css('width', '100%');
   }
+
+  event.stopPropagation();
 })
 
 // 關閉視窗
+
+
 $('#flipCancel').on('click', function(e) {
   $('.seven-flip-book-background').css('visibility', 'hidden');
 })
 
 $('#allFlipBook').on('click', function(event) {
   $('#allFlipBook').css('visibility', 'hidden');
-  $('#flipCurrentPage').text($("#flipBook").turn("page")-1 + '-' + $("#flipBook").turn("page"));
-  if($("#flipBook").turn("page") == 1){}
+  if($("#flipBook").turn("page") == 1){
     $('#flipCurrentPage').text('1');
   }
   if($("#flipBook").turn("page") == 22){
     $('#flipCurrentPage').text('22');
   }
 })
+

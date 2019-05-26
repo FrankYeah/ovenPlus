@@ -2,7 +2,7 @@
 .one-oven-background{
     height: 580px;
     position: relative;
-    background: url(../img/1-ovenplus-cover.png);
+    background: url(../img/1-ovenplus-cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -928,12 +928,36 @@
     color: #ffffff;
 }
 
-.seven-flip-book-prgress-bar{
+.seven-flip-book-progress-bar{
+    position: relative;
     width: 50%;
     height: 10px;
     border-radius: 14px;
     border: solid 1px #ffffff;
     background-color: rgba(255, 255, 255, 0.5);
+}
+
+.seven-flip-book-progress-bar-inside{
+    position: relative;
+    width: 4.55%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: white;
+}
+
+.seven-flip-book-progress-bar-inside::after{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    right: -8px;
+    top: -3.5px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 99px;
 }
 
 .seven-flip-book-download-button{
