@@ -1,48 +1,8 @@
 $(function() {
 
-  $('.owl-carousel').owlCarousel({
-      items:4,
-      loop:true,
-      merge:true,
-      margin:10,
-      autoWidth:true,
-      URLhashListener:true,
-      autoplayHoverPause:true,
-      startPosition: 'URLHash',
-      dotsContainer: '.custom-dots',
-      responsiveRefreshRate: 0,
-      responsive: {
-        0: {
-          autoWidth: false
-        },
-        992: {
-          autoWidth: false
-        }
-      }
-  });
 
-  $('.owl-carousels').owlCarousel({
-    items:4,
-    loop:true,
-    merge:true,
-    margin:10,
-    autoWidth:true,
-    URLhashListener:true,
-    autoplayHoverPause:true,
-    startPosition: 'URLHash',
-    dotsContainer: '.custom-dots',
-    responsiveRefreshRate: 0,
-    responsive: {
-      0: {
-        autoWidth: false
-      },
-      992: {
-        autoWidth: false
-      }
-    }
-  });
 
-  var rotateItem = 1;
+  // var rotateItem = 1;
 
   $('.two-left-button').click(function(){
       // if(rotateItem == 0){
@@ -78,9 +38,7 @@ $(function() {
     $(".owl-carousel").trigger('next.owl.carousel')
   })
 
-  $(window).load(function() {
-    $("#container1").twentytwenty();
-  });
+
 
   // 表單輸入1
 
@@ -179,7 +137,6 @@ $(function() {
   });  
 
 
-
   // 下載
 
   $('#downloadPDF').on('click', function() {
@@ -271,7 +228,7 @@ $(function() {
 
   $(window).scroll(function () {
     if($(this).scrollTop() > 5100 && $(this).scrollTop() < 5200){
-      $('.eight-popup-background').css('visibility', 'visible');
+      // $('.eight-popup-background').css('visibility', 'visible');
     }
 
   });
@@ -282,6 +239,105 @@ $(function() {
     
 
   })
+
+
+// mobile
+
+  // 表單輸入 手機版 1 
+
+  $('#submitMailOneMobile').on('click', function() {
+    $('.seven-flip-book-background').css('visibility', 'visible');
+    // 姓名
+    var emailOne = $('#inputMailOneMobile').val() || '未填寫';
+
+    // post
+    var data = {
+      'entry.239322164': emailOne
+    };
+    $.ajax({
+      type: 'POST',
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLScf00MUfvwuWPAG38Mgb-gp4n-cMCUEFmUGdAijbtqcC1pfng/formResponse',
+      data: data,
+      contentType: 'application/json',
+      dataType: 'jsonp',
+      complete: function() {
+        alert('資料已送出！');
+      }
+    });
+    
+  });  
+
+
+// 判斷畫面寬度
+
+var mm = window.matchMedia("(max-width: 1050px)");
+mm.addListener(resizeWidth);
+resizeWidth(mm);
+
+function resizeWidth(pMatchMedia){
+  if (pMatchMedia.matches) {
+    $('.owl-carousel').owlCarousel({
+      items:2,
+      loop:true,
+      merge:true,
+      margin:10,
+      autoWidth:true,
+      URLhashListener:true,
+      autoplayHoverPause:true,
+      startPosition: 'URLHash',
+      dotsContainer: '.custom-dots',
+      responsiveRefreshRate: 0,
+      responsive: {
+        0: {
+          autoWidth: false
+        },
+        992: {
+          autoWidth: false
+        }
+      }
+  });
+
+  
+  $('.owl-carousel').css('width', '95%');
+
+  $("#containerMobile").twentytwenty();
+
+  $('.four-three-right-img-div').css('display', 'none');
+
+  }else {
+    $('.owl-carousel').owlCarousel({
+      items:4,
+      loop:true,
+      merge:true,
+      margin:10,
+      autoWidth:true,
+      URLhashListener:true,
+      autoplayHoverPause:true,
+      startPosition: 'URLHash',
+      dotsContainer: '.custom-dots',
+      responsiveRefreshRate: 0,
+      responsive: {
+        0: {
+          autoWidth: false
+        },
+        992: {
+          autoWidth: false
+        }
+      }
+  });
+
+  $("#container1").twentytwenty();
+
+  $('.four-three-right-img-div-mobile').css('display', 'none');
+
+
+  }
+}
+
+
+
+
+
 
 
 
