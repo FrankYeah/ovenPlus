@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./owlcarousel/owl.carousel.min.css">
     <link rel="stylesheet" href="./owlcarousel/owl.theme.default.css">
 </head>
-<body style="margin:0px;">
+<body id="mainBody" style="margin:0px;">
     <!-- 1 -->
     <div class="one-oven-background">
         <div class="one-logo-div">
@@ -189,7 +189,7 @@
         </div>
     </div>
     <!-- 7 翻書 -->
-    <div id="allFlipBook" class="seven-flip-book-background">
+    <div style="visibility: hidden;" id="allFlipBook" class="seven-flip-book-background">
         <div class="seven-flip-book-inside">
             <div class="seven-flip-book-up">
                 <div id="flipPrevPage" class="seven-flip-book-left-button"></div>
@@ -229,6 +229,29 @@
             <img id="flipCancel" class="seven-flip-book-down" class="seven-flip-book-cancel-icon" src="./img/7-cancel-icon.svg" alt="cancel">
         </div>
     </div>
+    <!-- 8 popup -->
+    <div style="visibility: hidden;" class="eight-popup-background">
+        <div class="eight-popup-left-div">
+            <div class="eight-popup-left-img"></div>
+            <div class="eight-popup-right">
+                <div class="eight-pop-right-close">
+                    <p class="eight-pop-sub">Already Subscribed!</p>
+                    <p class="eight-pop-close-button">X</p>
+                </div>
+                <div class="eight-pop-right-box">
+                    <div class="eight-pop-right-icon"></div>
+                    <div class="eight-pop-right-head"></div>
+                    <div class="eight-pop-right-text"> For </div>
+                    <div class="">OvenPlus Recipe</div>
+                    <input id="inputMailEight" class="eight-pop-right-input" type="text">
+                    <div id="submitMailEight" class="eight-pop-right-button">Submit</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 
 
 
@@ -236,8 +259,6 @@
         <img src="./img/4-ovenplus-web.png" alt="">
         <img src="./img/4-regular-oven-web.png" alt="">
     </div> -->
-
-
     <!-- 輪播 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <!-- 翻書 -->

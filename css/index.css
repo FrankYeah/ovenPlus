@@ -977,3 +977,115 @@
     cursor: pointer;
 }
 
+/* 8 pop up */
+
+.eight-popup-background{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;    
+    z-index: 1;
+}
+
+.eight-popup-left-div{
+    display: flex;
+    width: 70%;
+    height: 100%;  
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #fffdf3;
+}
+
+.eight-popup-left-img{
+    height: 100%;
+    width: 44%;
+    background: url(../img/8-pizza-left.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.eight-popup-right{
+    width: 56%;
+    height: 100%;
+}
+
+.eight-pop-right-close{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.eight-pop-close-button{
+    font-size: 26px;
+    color: #393938;
+    cursor: pointer;
+    padding: 0px 36px 0px 25px;
+}
+
+.eight-pop-sub{
+    opacity: 0.3;
+    font-family: DINweb;
+    font-size: 22.2px;
+    font-weight: 500;
+    color: #262628;
+}
+
+.eight-pop-right-box{
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18%;
+}
+
+.eight-pop-right-icon{
+    width: 25px;
+    height: 47px;
+    background: url(../img/8-icon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.eight-pop-right-head{
+    height: 24px;
+    width: 200px;
+    background: url(../img/8-head.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin: 24px 0px 20px 0px;
+}
+
+.eight-pop-right-text{
+    color: #262628;
+    text-align: center;
+}
+
+.eight-pop-right-text::before{
+    content: "Subscribe";
+    font-weight: 600;
+}
+
+.eight-pop-right-input{
+    border: solid 1px #393938;
+    width: 200px;    
+    padding: 6px;
+    background-color: #fffdf3;
+    margin-top: 10px;
+}
+
+.eight-pop-right-button{
+    text-align: center;
+    margin-top: 15px;
+    padding: 4px 24px;
+    background-color: #e24242;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
