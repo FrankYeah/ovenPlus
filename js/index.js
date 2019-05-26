@@ -90,11 +90,11 @@ $(function() {
 
     // post
     var data = {
-      'entry.17718450': emailOne
+      'entry.239322164': emailOne
     };
     $.ajax({
       type: 'POST',
-      url: 'https://docs.google.com/forms/d/e/1FAIpQLSdJO_sHYp7DoTFGFNdEuAaC4Xu0l8kVJDOrCxx-epu14QWyHA/formResponse',
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLScf00MUfvwuWPAG38Mgb-gp4n-cMCUEFmUGdAijbtqcC1pfng/formResponse',
       data: data,
       contentType: 'application/json',
       dataType: 'jsonp',
@@ -113,7 +113,7 @@ $(function() {
     var emailOne = $('#inputMailFour').val() || '未填寫';
 
     var data = {
-      'emailAddress': emailOne
+      'entry.239322164': emailOne
     };
     $.ajax({
       type: 'POST',
@@ -137,7 +137,7 @@ $(function() {
 
     // post
     var data = {
-      'emailAddress': emailOne
+      'entry.239322164': emailOne
     };
     $.ajax({
       type: 'POST',
@@ -168,14 +168,16 @@ alert("The current display is: " + $("#flipBook").turn("page"));
 
 // 上一頁
 $('#flipPrevPage').on('click', function() {
+  $("#flipBook").turn("previous");
   $('#flipCurrentPage').text($("#flipBook").turn("page")-1 + '-' + $("#flipBook").turn("page"));
-  if($("#flipBook").turn("page") == 0){
+  if($("#flipBook").turn("page") == 1){
     $('#flipCurrentPage').text('1');
   }
 })
 
 // 下一頁
 $('#flipNextvPage').on('click', function() {
+  $("#flipBook").turn("next");
   $('#flipCurrentPage').text($("#flipBook").turn("page")-1 + '-' + $("#flipBook").turn("page"));
   if($("#flipBook").turn("page") == 22){
     $('#flipCurrentPage').text('22');
@@ -183,9 +185,17 @@ $('#flipNextvPage').on('click', function() {
 })
 
 // 關閉視窗
-$('#flipCancel').on('click', function() {
-  console.log('jojo')
+$('#flipCancel').on('click', function(e) {
   $('.seven-flip-book-background').css('visibility', 'hidden');
 })
 
-
+$('#allFlipBook').on('click', function(event) {
+  $('#allFlipBook').css('visibility', 'hidden');
+  $('#flipCurrentPage').text($("#flipBook").turn("page")-1 + '-' + $("#flipBook").turn("page"));
+  if($("#flipBook").turn("page") == 1){}
+    $('#flipCurrentPage').text('1');
+  }
+  if($("#flipBook").turn("page") == 22){
+    $('#flipCurrentPage').text('22');
+  }
+})

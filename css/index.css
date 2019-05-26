@@ -853,6 +853,10 @@
 }
 
 .seven-flip-book-inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 90%;
     height: 95%;
 }
@@ -864,8 +868,10 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 72%;
-    height: 70%;
+	width: 620px;
+    height: 350px;
+    /* width: 72%;
+    height: 70%; */
 }
 
 .seven-flip-book-left-button{
@@ -912,7 +918,7 @@
 }
 
 .seven-flip-book-progress-count{
-    width: 10%;
+    width: 8%;
     font-family: DINweb;
     font-size: 18px;
     font-weight: bold;
@@ -931,6 +937,7 @@
 }
 
 .seven-flip-book-download-button{
+    padding-left: 12px;
     width: 10%;
     cursor: pointer;
 }
