@@ -59,7 +59,7 @@ $(function() {
       contentType: 'application/json',
       dataType: 'jsonp',
       complete: function() {
-        alert('資料已送出！');
+
       }
     });
     
@@ -82,7 +82,7 @@ $(function() {
       contentType: 'application/json',
       dataType: 'jsonp',
       complete: function() {
-        alert('資料已送出！');
+
       }
     });
     
@@ -106,7 +106,7 @@ $(function() {
       contentType: 'application/json',
       dataType: 'jsonp',
       complete: function() {
-        alert('資料已送出！');
+
       }
     });
     
@@ -130,7 +130,7 @@ $(function() {
       contentType: 'application/json',
       dataType: 'jsonp',
       complete: function() {
-        alert('資料已送出！');
+
       }
     });
     
@@ -146,7 +146,7 @@ $(function() {
 
   // 翻書
 
-  $('#flipBook').turn({gradients: true, acceleration: true});
+  // $('#flipBook').turn({gradients: true, acceleration: true});
 
     // 點選翻頁圖片，也要改下面數字
   $('.seven-flip-book-inside').on('click', function(event) {
@@ -228,7 +228,7 @@ $(function() {
 
   $(window).scroll(function () {
     if($(this).scrollTop() > 5100 && $(this).scrollTop() < 5200){
-      // $('.eight-popup-background').css('visibility', 'visible');
+      $('.eight-popup-background').css('visibility', 'visible');
     }
 
   });
@@ -261,14 +261,39 @@ $(function() {
       contentType: 'application/json',
       dataType: 'jsonp',
       complete: function() {
-        alert('資料已送出！');
+
       }
     });
     
   });  
 
 
-// 判斷畫面寬度
+  // 表單輸入 手機版 2
+
+  $('#submitMailSixMobile').on('click', function() {
+    $('.seven-flip-book-background').css('visibility', 'visible');
+    // 姓名
+    var emailOne = $('#inputMailSixMobile').val() || '未填寫';
+
+    // post
+    var data = {
+      'entry.239322164': emailOne
+    };
+    $.ajax({
+      type: 'POST',
+      url: 'https://docs.google.com/forms/d/e/1FAIpQLScf00MUfvwuWPAG38Mgb-gp4n-cMCUEFmUGdAijbtqcC1pfng/formResponse',
+      data: data,
+      contentType: 'application/json',
+      dataType: 'jsonp',
+      complete: function() {
+
+      }
+    });
+    
+  });    
+
+
+// 判斷畫面寬度 1050
 
 var mm = window.matchMedia("(max-width: 1050px)");
 mm.addListener(resizeWidth);
@@ -335,10 +360,20 @@ function resizeWidth(pMatchMedia){
 }
 
 
+// 判斷畫面寬度 700
 
+var ss = window.matchMedia("(max-width: 700px)");
+ss.addListener(resizeWidthSize);
+resizeWidthSize(ss);
 
+function resizeWidthSize(pMatchMedia){
+  if (pMatchMedia.matches) {
+    $('#flipBook').turn({gradients: true, acceleration: true, display: 'single'});
 
-
+  } else {
+    $('#flipBook').turn({gradients: true, acceleration: true});
+  }
+}
 
 
 
