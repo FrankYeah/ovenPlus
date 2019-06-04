@@ -228,7 +228,7 @@ $(function() {
 
   $(window).scroll(function () {
     if($(this).scrollTop() > 5100 && $(this).scrollTop() < 5200){
-      $('.eight-popup-background').css('visibility', 'visible');
+      // $('.eight-popup-background').css('visibility', 'visible');
     }
 
   });

@@ -1693,10 +1693,12 @@
     }
 
 
+}
 
-
-
-
+@media ( max-width: 430px ){
+    .four-four-chef-img{
+        margin-top: 310px;
+    }
 }
 
 
