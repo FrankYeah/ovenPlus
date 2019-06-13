@@ -13,8 +13,6 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     right: 10%;
     top: 30%;
 }
@@ -34,8 +32,17 @@
     font-weight: bold;
     font-family: DINweb;
     color: #ffffff;
-    width: 400px;
-    text-align: center;
+    /* width: 400px; */
+}
+
+.one-sub-text{
+    font-size: 24px;
+    color: #ffffff;
+    font-family: Branding;
+}
+
+.one-input-box{
+    display: flex;
 }
 
 .one-input{
@@ -51,10 +58,10 @@
     background-color: #e24242;
     color: #ffffff;
     border-radius: 4px;
-    margin-top: 10px;
     padding: 2px 28px;
     text-align: center;
     cursor: pointer;
+    margin-left: 10px;
 }
 
 .one-logo-div-mobile{
@@ -106,14 +113,73 @@
 }
 
 .two-up-right{
-    width: 385px;
-    height: 414px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two-up-right-step{
+    width: 360px;
+    height: 112px;
+    background: url(../img/2-step.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.two-up-right-equal{
+    width: 10px;
+    height: 12px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: #e24242;
+    background: url(../img/2-equal.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.two-up-right-main-img{
+    position: relative;
+    width: 280px;
+    height: 160px;
     padding: 2.5%;
     background: url(../img/2-oven-open.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+}
+
+.two-up-right-box{
+    position: absolute;
+    right: -114px;
+    top: 40px;
+    width: 130px;
+    text-align: center;
+}
+
+.two-up-right-price-up{
+    font-size: 36px;
+    color: #e24242;
+    font-weight: bold;
+}
+
+.two-up-right-price-up::before{
+    content: '.';
+    width: 40px;
+    height: 5px;
+    background: #e24242;
+}
+
+.two-up-right-price-down{
+    font-size: 28px;
+    background: #e24242;
+    color: #eeeeee;
+    font-weight: bold;
 }
 
 /* 2.5 */
@@ -1718,9 +1784,9 @@
         height: 450px;
     }
 
-    .two-up-right{
+    .two-up-right-main-img{
         width: 280px;
-        height: 321px;
+        height: 160px;
     }
 
 
