@@ -131,7 +131,7 @@
 .two-up-right-equal{
     width: 10px;
     height: 12px;
-    margin: 10px;
+    margin: 20px;
     text-align: center;
     line-height: 40px;
     color: #e24242;
@@ -152,6 +152,7 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+    margin-right: 112px;
 }
 
 .two-up-right-box{
@@ -163,6 +164,7 @@
 }
 
 .two-up-right-price-up{
+    position: relative;
     font-size: 36px;
     color: #e24242;
     font-weight: bold;
@@ -170,9 +172,15 @@
 
 .two-up-right-price-up::before{
     content: '.';
-    width: 40px;
-    height: 5px;
+    display: block;
+    width: 120px;
+    height: 3px;
     background: #e24242;
+    position: absolute;
+    top: 18px;
+    left: 6px;
+    transform: rotate(-6deg);
+
 }
 
 .two-up-right-price-down{
@@ -220,111 +228,97 @@
 
 }
 
-.two-rotate-img-upper-pizza{
+.two-rotate-img-1{
     /* width: 213px; */
-    height: 152px;
-    background: url(../img/2-pizza-1.jpg);
+    height: 200px;
+    background: url(../img/2-rimg-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
 }
 
-.two-rotate-img-down-pizza{
+.two-rotate-img-2{
     /* width: 213px; */
-    height: 152px;
-    background: url(../img/2-pizza-2.jpg);
+    height: 200px;
+    background: url(../img/2-rimg-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
 }
 
-.two-rotate-img-upper-steak{
+.two-rotate-img-3{
     /* width: 213px; */
-    height: 152px;
-    background: url(../img/2-steak-1.jpg);
+    height: 200px;
+    background: url(../img/2-rimg-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
 }
 
-.two-rotate-img-down-steak{
+.two-rotate-img-4{
     /* width: 213px; */
-    height: 152px;
-    background: url(../img/2-steak-2.jpg);
+    height: 200px;
+    background: url(../img/2-rimg-4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
 }
 
-.two-rotate-img-upper-burger{
+.two-rotate-img-5{
     /* width: 213px; */
-    height: 152px;
-    background: url(../img/2-burger-1.jpg);
+    height: 200px;
+    background: url(../img/2-rimg-5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
 }
 
-.two-rotate-img-down-burger{
+.two-rotate-img-6{
     /* width: 213px; */
-    height: 152px;
-    background: url(../img/2-burger-2.jpg);
+    height: 200px;
+    background: url(../img/2-rimg-6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
 }
 
-.two-rotate-img-upper-salmon{
+.two-rotate-img-7{
     /* width: 213px; */
-    height: 152px;
-    background: url(../img/2-salmon-1.jpg);
+    height: 200px;
+    background: url(../img/2-rimg-7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
 }
 
-.two-rotate-img-down-salmon{
-    /* width: 213px; */
-    height: 152px;
-    background: url(../img/2-salmon-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-}
 
 /* 3 */
 
 .three-head-div{
-    padding-right: 400px;
-    margin: 0 auto;
-    padding-top: 50px;
-    width: auto;
-    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5% 0px;
 }
 
 .three-head-h{
+    width: 36%;
+    line-height: 56px;
     font-size: 40px;
     color: #e24242;
     font-weight: bold;
     letter-spacing: 0.1px;
 }
 
-.three-head-line{
-    width: 49px;
-    height: 6px;
-    background-color: #e24242;
-    margin-left: -10px;
-}
-
 .three-head-text{
+    width: 33%;
     font-family: DINweb;
     font-size: 20px;
     line-height: 1.2;
@@ -332,16 +326,25 @@
     color: #262628;
 }
 
+/* 3.1 */
+
+.three-two-img{
+    width: 100%;
+    height: 780px;
+    background: url(../img/4-chef.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    margin-top: -10px;
+}
+
 /* 4 */
 
 .four-up-background{
     width: 100%;
     height: 700px;
-    background: url(../img/4-background-img.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
+    background: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -524,74 +527,6 @@
     height: 100%;
 }
 
-
-
-/* 4.4 */
-
-.four-four-chef-background{
-    position: relative;
-    width: 100%;
-    height: 900px;
-}
-
-.four-four-black-back{
-    position: absolute;
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    height: 372px;
-    background-color: black;
-}
-
-.four-four-text-close{
-    width: 34%;
-    padding-right: 13%;
-}
-
-.four-four-black-head-word{
-    /* width: 443px; */
-    font-family: DINweb;
-    font-size: 32px;
-    font-weight: bold;
-    letter-spacing: 0.1px;
-    color: #ffffff;
-}
-
-.four-four-black-head-text{
-    /* width: 437px; */
-    font-family: DINweb;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.1px;
-    text-align: justify;
-    color: #ffffff;
-}
-
-.four-four-chef-img{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url(../img/4-chef.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    margin-top: 30px;
-}
-
-.four-five-red-brush{
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100%;
-    height: 90px;
-    background: url(../img/4-red-brush.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: top;
-}
-
 /* 4.5 */
 
 .four-five-red-div{
@@ -600,13 +535,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #e24242;
+    background-color: #262628;
     width: 100%;
     height: 300px;
 
 }
 
 .four-five-head-text{
+    width: 50%;
     font-family: Branding;
     font-size: 40px;
     font-weight: 500;
@@ -621,12 +557,12 @@
 }
 
 .four-five-input{
+    width: 50%;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     border: solid 1px #ffffff;
     background-color: rgba(255, 255, 255, 0.3);
     color: white;
     color: white;
-    width: 25%;
     padding: 6px;
 }
 
@@ -637,12 +573,64 @@
     letter-spacing: 0.1px;
     text-align: center;
     color: #ffffff;
-    background-color: #3c3c3b;
+    background-color: #e24242;
     padding: 5px 25px;
     border-radius: 6px;
     cursor: pointer;
 }
 
+/* 4.6 */
+
+.four-six-background{
+    position: relative;
+    width: 70%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.four-six-background-img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    background: url(../img/4-6-background-img.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.four-six-img{
+    width: 100%;
+    height: 120px;
+    background: url(../img/4-6-header.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: center;
+    
+}
+
+.four-six-head{
+    font-family: Branding;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #262628;
+    margin: 0px;
+}
+
+.four-six-text{
+    font-family: DINweb;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #262628;
+    margin: 16px 0px 60px;
+}
 
 /* 5.1 */
 
@@ -694,33 +682,18 @@
 
 }
 
-.five-two-red-brush{
-    margin: auto;
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-    height: 200px;
-    background: url(../img/4-red-brush.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: top;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.five-two-spec{
-    font-family: Branding;
-    font-size: 40px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    text-align: center;
-    color: #ffffff;
-    margin-top: 80px;
-}
-
 /* 6.1 */
+
+.six-one-specs{
+    height: 87px;
+    object-fit: contain;
+    font-family: Branding;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #e24242;
+}
 
 .six-one-cook-thing{
     width: 100%;
@@ -735,6 +708,8 @@
     height: 175px;
     display: flex;
     justify-content: space-around;
+    margin: auto;
+    padding-bottom: 30px;
 }
 
 .six-porduct-outline{
@@ -863,7 +838,7 @@
     color: white;
     width: 25px;
     height: 47px;
-    background: url(../img/8-icon.svg);
+    background: url(../img/8-icon.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -880,6 +855,11 @@
 
 .six-four-center-text{
     color: #ffffff;
+}
+
+.six-four-center-text::before{
+    content: "Subscribe";
+    font-weight: 600;
 }
 
 .six-four-center-mail{
@@ -1208,12 +1188,6 @@
     }
 }
 
-@media ( min-width: 1430px ){
-    .four-four-chef-background{
-        height: 1100px;
-    }
-}
-
 @media ( max-width: 1050px ){
     /* 1 */
     .one-logo-div{
@@ -1302,7 +1276,6 @@
     /* 3 */
 
     .three-head-div{
-        padding-right: 0px;
     }
 
 /* 4 */
@@ -1392,17 +1365,6 @@
         display: none;
     }
 
-    /* 4.4 */
-
-    .four-four-text-close{
-        width: 100%;
-        padding: 0px 10%;
-    }
-
-    .four-four-chef-img{
-        margin-top: 230px;
-    }
-
     /* 4.5 */
 
     .four-five-input{
@@ -1413,20 +1375,6 @@
 
     .five-two-center-div{
         width: 70%;
-    }
-
-    .five-two-red-brush{
-        height: 100px;
-        background: url(../img/4-red-brush-mobile.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position-x: center;
-        background-position-y: top;
-        bottom: -2%;
-    }
-
-    .five-two-spec{
-        margin-top: 54px;
     }
 
     /* 6.1 */
@@ -1790,12 +1738,6 @@
     }
 
 
-}
-
-@media ( max-width: 430px ){
-    .four-four-chef-img{
-        margin-top: 310px;
-    }
 }
 
 

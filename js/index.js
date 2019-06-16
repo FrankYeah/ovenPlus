@@ -331,7 +331,7 @@ function resizeWidth(pMatchMedia){
 
   }else {
     $('.owl-carousel').owlCarousel({
-      items:4,
+      items:3,
       loop:true,
       merge:true,
       margin:10,
