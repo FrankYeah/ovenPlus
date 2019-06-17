@@ -44,7 +44,11 @@ $(function() {
 
 
   $('#submitMailOne').on('click', function() {
-    $('.seven-flip-book-background').css('visibility', 'visible');
+
+    // 上線後再改回來翻書
+    window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
+    // $('.seven-flip-book-background').css('visibility', 'visible');
+
     // 姓名
     var emailOne = $('#inputMailOne').val() || '未填寫';
 
@@ -68,7 +72,11 @@ $(function() {
 // 表單輸入2
 
   $('#submitMailFour').on('click', function() {
-    $('.seven-flip-book-background').css('visibility', 'visible');
+
+    // 上線後再改回來翻書
+    window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
+    // $('.seven-flip-book-background').css('visibility', 'visible');
+
     // mail
     var emailOne = $('#inputMailFour').val() || '未填寫';
 
@@ -91,7 +99,11 @@ $(function() {
 // 表單輸入3
 
   $('#submitMailSix').on('click', function() {
-    $('.seven-flip-book-background').css('visibility', 'visible');
+
+    // 上線後再改回來翻書
+    window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
+    // $('.seven-flip-book-background').css('visibility', 'visible');
+
     // 姓名
     var emailOne = $('#inputMailSix').val() || '未填寫';
 
@@ -115,7 +127,11 @@ $(function() {
   // 表單輸入4
 
   $('#submitMailEight').on('click', function() {
-    $('.seven-flip-book-background').css('visibility', 'visible');
+
+    // 上線後再改回來翻書
+    window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
+    // $('.seven-flip-book-background').css('visibility', 'visible');
+
     // 姓名
     var emailOne = $('#inputMailEight').val() || '未填寫';
 
@@ -246,7 +262,11 @@ $(function() {
   // 表單輸入 手機版 1 
 
   $('#submitMailOneMobile').on('click', function() {
-    $('.seven-flip-book-background').css('visibility', 'visible');
+    
+    // 上線後再改回來翻書
+    window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
+    // $('.seven-flip-book-background').css('visibility', 'visible');
+
     // 姓名
     var emailOne = $('#inputMailOneMobile').val() || '未填寫';
 
@@ -271,7 +291,11 @@ $(function() {
   // 表單輸入 手機版 2
 
   $('#submitMailSixMobile').on('click', function() {
-    $('.seven-flip-book-background').css('visibility', 'visible');
+
+    // 上線後再改回來翻書
+    window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
+    // $('.seven-flip-book-background').css('visibility', 'visible');
+
     // 姓名
     var emailOne = $('#inputMailSixMobile').val() || '未填寫';
 
