@@ -330,13 +330,14 @@
 
 .three-two-img{
     width: 100%;
+    max-width: 1200px;
     height: 780px;
     background: url(../img/4-chef.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    margin-top: -10px;
+    margin: -10px auto auto;
 }
 
 /* 4 */
