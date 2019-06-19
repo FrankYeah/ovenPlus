@@ -3,18 +3,32 @@
     /* height: 580px; */
     height: 100vh;
     position: relative;
-    background: url(../img/1-ovenplus-cover.jpg);
+    background: url('../img/1-ovenplus-cover.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
 }
 
+.one-black-opacity{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: black;
+    opacity: 0.5;
+}
+
 .one-new-head-box{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    height: 100%;
     justify-content: center;
+    align-items: baseline;
     padding-left: 50%;
 }
 
@@ -23,8 +37,9 @@
 }
 
 .one-sub-head{
-    padding-left: 7%;
-    padding-top: 20px;
+    width: 80%;
+    height: auto;
+    padding-top: 30px;
 }
 
 .one-logo-div{
