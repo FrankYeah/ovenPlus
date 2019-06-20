@@ -395,6 +395,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .four-up-head{
@@ -440,14 +441,18 @@
 /* 4.1 */
 
 .four-one-div{
+    position: relative;
     display: flex;
     height: 580px;
     width: 100%;
 }
 
 .four-one-left-div{
+    position: relative;
+    right: 0;
+    top: 0;
     z-index: 1;
-    width: 33%;
+    width: 540px;
     height: 100%;
     background-color: #e24242;
     display: flex;
@@ -487,15 +492,23 @@
     color: #ffffff;
 }
 
-.four-one-right-img{
-    width: 67%;
+
+.four-one-video-box{
+    width: 75%;
     height: 100%;
-    background: url(../img/4-smokeless.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
+    position: relative;
+    overflow: hidden;
 }
+
+.four-one-video{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
 
 /* 4.2 */
 
@@ -510,20 +523,18 @@
 
 .four-two-left-div{
     position: relative;
-    width: 67%;
+    width: 75%;
     height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
+    overflow: hidden;
 }
 
 .four-two-left-video{
+    width: 100%;
     position: absolute;
-    width: auto;
-    height: 100%;
-    top: 0;
-    left: 0;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .four-two-left-img{
@@ -540,25 +551,15 @@
 
 .four-one-div-box{
     display: flex;
-    /* height: 580px; */
+    height: 580px;
     width: 100%;
 }
 
-.four-three-left-div{
-    z-index: 1;
-    width: 55%;
-    height: 100%;
-    background-color: #e24242;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}  
 
 .four-three-left-div-inside{
     z-index: 1;
-    width: 55%;
-    /* height: 100%; */
+    width: 540px;
+    height: 580px;
     background-color: #e24242;
     display: flex;
     flex-direction: column;
@@ -578,8 +579,19 @@
 }
 
 .four-three-right-img-div{
-    width: 45%;
+    position: relative;
+    width: 75%;
     height: 100%;
+    overflow: hidden;
+}
+
+.twentytwenty-container{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 /* 4.5 */

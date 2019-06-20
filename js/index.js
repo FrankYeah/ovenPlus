@@ -400,10 +400,6 @@ function resizeWidthSize(pMatchMedia){
 }
 
 
-
-
-
-
 });
   // console.log($(this).scrollTop())
   // console.log(document.documentElement.clientWidth)
