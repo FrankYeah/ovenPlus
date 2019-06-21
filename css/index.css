@@ -190,15 +190,20 @@
     text-align: center;
 }
 
+.two-down-red-mobile{
+    display: none;
+}
+
 .two-up-right-price-up{
     position: relative;
     font-size: 36px;
     color: #e24242;
     font-weight: bold;
+    text-align: center;
 }
 
 .two-up-right-price-up::before{
-    content: '.';
+    content: '';
     display: block;
     width: 120px;
     height: 3px;
@@ -416,6 +421,7 @@
     letter-spacing: 0.1px;
     text-align: center;
     color: #ffffff;
+    padding: 0px 5%;
 }
 
 .four-up-img{
@@ -443,7 +449,7 @@
 .four-one-div{
     position: relative;
     display: flex;
-    height: 580px;
+    height: 520px;
     width: 100%;
 }
 
@@ -464,11 +470,12 @@
 .four-one-left-img{
     width: 120px;
     height: 120px;
-    background: url(../img/4-non-smoke-icon.svg);
+    background: url(../img/4-energy-icon.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+    margin-bottom: 40px;
 }
 
 .four-one-left-head{
@@ -478,7 +485,7 @@
     letter-spacing: 0.1px;
     text-align: center;
     color: #ffffff;
-    margin: 16px 0 4px;
+    margin: 0px;
 }
 
 .four-one-left-text{
@@ -529,7 +536,7 @@
 }
 
 .four-two-left-video{
-    width: 100%;
+    width: 115%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -540,18 +547,19 @@
 .four-two-left-img{
     width: 120px;
     height: 120px;
-    background: url(../img/4-energy-icon.svg);
+    background: url(../img/4-non-smoke-icon.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+    margin-bottom: 40px;
 }
 
 /* 4.3 */
 
 .four-one-div-box{
     display: flex;
-    height: 580px;
+    height: 520px;
     width: 100%;
 }
 
@@ -559,7 +567,7 @@
 .four-three-left-div-inside{
     z-index: 1;
     width: 540px;
-    height: 580px;
+    height: 100%;
     background-color: #e24242;
     display: flex;
     flex-direction: column;
@@ -576,6 +584,7 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+    margin-bottom: 40px;
 }
 
 .four-three-right-img-div{

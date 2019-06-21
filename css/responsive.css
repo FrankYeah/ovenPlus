@@ -1,6 +1,19 @@
+@media( max-width: 1280px ){
+    .four-one-video{
+        width: 130%;
+    }
 
+    .four-two-left-video{
+        width: 160%;
+    }
 
-@media( max-width: 1050px ){
+    .twentytwenty-container{
+        width: 140%;
+    }
+}
+
+/* @media( max-width: 1050px ){ */
+@media( max-width: 1024px ){
     /* 1 */
     .one-logo-div{
         display: none;
@@ -35,6 +48,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        background: url('../img/1-background-mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
     }
     
     .one-back-head-mobile{
@@ -102,24 +120,72 @@
         flex-direction: column;
     }
 
+    .two-up-right-main-img{
+        margin: 0;
+    }
+
+    .two-up-right-box{
+        display: none;
+    }
+
+    .two-down-red-mobile{
+        display: block;
+    }
+
+    .two-up-right-price-down{
+        width: 220px;
+        text-align: center;
+    }
+
+    .two-up-right-price-up::before{
+        width: 108px;
+        top: 42%;
+        left: 26%;
+    }
+
     .two-rotate-div{
         position: relative;
+        width: 90%;
     }
 
     .two-left-button{
         z-index: 2;
         position: absolute;
-        left: -4px;
+        left: -18px;
         margin-right: 0px;
     }
 
     .two-right-button{
-        display: none;
+        z-index: 2;
+        position: absolute;
+        right: -18px;
+        margin-right: 0px;
     }
+
+    
     
     /* 3 */
 
     .three-head-div{
+        flex-direction: column;
+    }
+
+    .three-head-h{
+        width: 100%;
+    }
+
+    .three-head-text{
+        width: 100%;
+    }
+
+    /* 3.2 */
+
+    .three-two-img{
+        height: 390px;
+    }
+
+    .three-two-img-box::before{
+        height: 145px;
     }
 
 /* 4 */
@@ -222,7 +288,7 @@
     /* 6.1 */
 
     .six-one-cook-thing{
-        height: 500px;
+        height: auto;
     }
 
     .six-one-cook-one{

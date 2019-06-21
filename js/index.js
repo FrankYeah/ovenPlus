@@ -317,9 +317,50 @@ $(function() {
   });    
 
 
+// 判斷畫面寬度 700
+
+var ss = window.matchMedia("(max-width: 700px)");
+ss.addListener(resizeWidthSize);
+resizeWidthSize(ss);
+
+function resizeWidthSize(pMatchMedia){
+  if (pMatchMedia.matches) {
+
+    $('.owl-carousel').owlCarousel({
+      items:1,
+      loop:true,
+      merge:true,
+      margin:10,
+      autoplay:true,
+      autoWidth:true,
+      URLhashListener:true,
+      autoplayHoverPause:true,
+      startPosition: 'URLHash',
+      dotsContainer: '.custom-dots',
+      responsiveRefreshRate: 0,
+      responsive: {
+        0: {
+          autoWidth: false
+        },
+        992: {
+          autoWidth: false
+        }
+      }
+    });
+
+    $('#flipBook').turn({gradients: true, acceleration: true, display: 'single'});
+
+  } else {
+    
+    $('#flipBook').turn({gradients: true, acceleration: true});
+  }
+}
+
+
+
 // 判斷畫面寬度 1050
 
-var mm = window.matchMedia("(max-width: 1050px)");
+var mm = window.matchMedia("(max-width: 1024px)");
 mm.addListener(resizeWidth);
 resizeWidth(mm);
 
@@ -330,6 +371,7 @@ function resizeWidth(pMatchMedia){
       loop:true,
       merge:true,
       margin:10,
+      autoplay:true,
       autoWidth:true,
       URLhashListener:true,
       autoplayHoverPause:true,
@@ -344,21 +386,41 @@ function resizeWidth(pMatchMedia){
           autoWidth: false
         }
       }
-  });
+    });
 
   
-  $('.owl-carousel').css('width', '95%');
+    $('.owl-carousel').css('width', '95%');
 
-  $("#containerMobile").twentytwenty();
+    $("#containerMobile").twentytwenty();
 
-  $('.four-three-right-img-div').css('display', 'none');
+    $('.four-three-right-img-div').css('display', 'none');
 
-  }else {
+  } else {
+
+    $("#container1").twentytwenty();
+
+    $('.four-three-right-img-div-mobile').css('display', 'none');
+
+  }
+}
+
+
+
+
+// 判斷畫面寬度 1440
+
+var jj = window.matchMedia("(max-width: 1440px)");
+jj.addListener(resizeWidthLong);
+resizeWidthLong(jj);
+
+function resizeWidthLong(pMatchMedia){
+  if (pMatchMedia.matches) {
     $('.owl-carousel').owlCarousel({
       items:3,
       loop:true,
       merge:true,
       margin:10,
+      autoplay:true,
       autoWidth:true,
       URLhashListener:true,
       autoplayHoverPause:true,
@@ -373,31 +435,10 @@ function resizeWidth(pMatchMedia){
           autoWidth: false
         }
       }
-  });
-
-  $("#container1").twentytwenty();
-
-  $('.four-three-right-img-div-mobile').css('display', 'none');
-
-
+    });
   }
 }
 
-
-// 判斷畫面寬度 700
-
-var ss = window.matchMedia("(max-width: 700px)");
-ss.addListener(resizeWidthSize);
-resizeWidthSize(ss);
-
-function resizeWidthSize(pMatchMedia){
-  if (pMatchMedia.matches) {
-    $('#flipBook').turn({gradients: true, acceleration: true, display: 'single'});
-
-  } else {
-    $('#flipBook').turn({gradients: true, acceleration: true});
-  }
-}
 
 
 });
