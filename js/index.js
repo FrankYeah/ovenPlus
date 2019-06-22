@@ -407,9 +407,9 @@ function resizeWidth(pMatchMedia){
 
 
 
-// 判斷畫面寬度 1440
+// 判斷畫面寬度 1960
 
-var jj = window.matchMedia("(max-width: 1440px)");
+var jj = window.matchMedia("(max-width: 1960px)");
 jj.addListener(resizeWidthLong);
 resizeWidthLong(jj);
 
