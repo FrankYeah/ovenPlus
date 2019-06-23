@@ -97,9 +97,7 @@
     }
 
     .one-input-mobile{
-        height: 15px;
         width: 90%;
-        line-height: 15px;
         color: white;
         font-family: DIN;
         font-size: 18px;
@@ -107,7 +105,7 @@
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
         border: solid 1px #ffffff;
         background-color: rgba(255, 255, 255, 0.3);
-        padding: 8px;
+        padding: 6px;
     }
 
     .one-input-mobile::placeholder{
@@ -514,6 +512,7 @@
         color: #ffffff;
         font-size: 22px;
         background-color: rgba(255, 255, 255, 0.3);
+        margin-bottom: 18px;
     }
 
     .six-four-center-input-mobile::placeholder{
@@ -534,7 +533,6 @@
         background-color: #e24242;
         padding: 0px;
         cursor: pointer;
-        margin-top: 25px;
         border-radius: 5px;
     }
 
