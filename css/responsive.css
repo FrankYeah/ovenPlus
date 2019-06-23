@@ -215,7 +215,7 @@
     /* 3.2 */
 
     .three-two-img{
-        height: 390px;
+        height: 352px;
     }
 
     .three-two-img-box{
@@ -223,7 +223,7 @@
     }
 
     .three-two-img-box::before{
-        height: 145px;
+        height: 130px;
     }
 
 /* 4 */
