@@ -97,7 +97,9 @@
     }
 
     .one-input-mobile{
+        height: 15px;
         width: 90%;
+        line-height: 15px;
         color: white;
         font-family: DIN;
         font-size: 18px;
@@ -106,6 +108,10 @@
         border: solid 1px #ffffff;
         background-color: rgba(255, 255, 255, 0.3);
         padding: 8px;
+    }
+
+    .one-input-mobile::placeholder{
+        color: #ffffff;
     }
 
     .one-submit-mobile{
@@ -235,6 +241,7 @@
 
     .four-up-text{
         width: auto;
+        height: 75px;
         font-size: 16px;
     }
 

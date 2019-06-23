@@ -507,7 +507,7 @@
     height: 120px;
     background: url(../img/4-energy-icon.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position-x: center;
     background-position-y: center;
     margin-bottom: 40px;
@@ -584,7 +584,7 @@
     height: 120px;
     background: url(../img/4-non-smoke-icon.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position-x: center;
     background-position-y: center;
     margin-bottom: 40px;
@@ -616,7 +616,7 @@
     height: 120px;
     background: url(../img/4-grill-icon.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position-x: center;
     background-position-y: center;
     margin-bottom: 40px;

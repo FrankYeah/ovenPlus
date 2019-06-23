@@ -442,11 +442,6 @@ function resizeWidthLong(pMatchMedia){
 }
 
 
-// lazy loading
-
-$("img.lazyload").lazyload();
-
-
 });
   // console.log($(this).scrollTop())
   // console.log(document.documentElement.clientWidth)
