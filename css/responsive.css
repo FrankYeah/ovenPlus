@@ -105,6 +105,7 @@
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
         border: solid 1px #ffffff;
         background-color: rgba(255, 255, 255, 0.3);
+        color: white;
         padding: 6px;
     }
 
@@ -121,7 +122,6 @@
         background-color: #3c3c3b;
         color: white;
         border-radius: 5px;
-        margin-top: 10px;
         text-align: center;
         cursor: pointer;
         margin: 17px 0px;
@@ -363,7 +363,11 @@
         height: 34px;
         line-height: 34px;
         font-size: 22px;
-        margin: 26px 0px 0px;
+        font-weight: bold;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+        margin: 17px 0px;
     }
 
     /* 4.6 */
@@ -520,20 +524,20 @@
     }
 
     .six-four-center-submit-mobile{
+        color: white;
+        font-family: DIN;
+        letter-spacing: 0.1px;
+        color: #ffffff;
+        background-color: #e24242;
         width: 120px;
         height: 34px;
         line-height: 34px;
-        color: white;
-        font-family: DIN;
         font-size: 22px;
         font-weight: bold;
-        letter-spacing: 0.1px;
-        text-align: center;
-        color: #ffffff;
-        background-color: #e24242;
-        padding: 0px;
-        cursor: pointer;
         border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+        margin: 17px 0px;
     }
 
     .six-four-connect-box{
