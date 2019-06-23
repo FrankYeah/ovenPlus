@@ -360,7 +360,7 @@ function resizeWidthSize(pMatchMedia){
 
 // 判斷畫面寬度 1050
 
-var mm = window.matchMedia("(max-width: 1024px)");
+var mm = window.matchMedia("(max-width: 1023px)");
 mm.addListener(resizeWidth);
 resizeWidth(mm);
 

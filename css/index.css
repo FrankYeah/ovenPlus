@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'DIN';
+    font-weight: 400;
+    src:  url('../fonts/din-regular.ttf') format("truetype");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+
+  }
+
 /* 1 */
 .one-oven-background{
     /* height: 580px; */
@@ -24,12 +32,12 @@
     position: absolute;
     left: 0;
     top: 0;
-    height: 100%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    padding-left: 50%;
+    padding-left: 55%;
 }
 
 .one-main-head{
@@ -37,9 +45,7 @@
 }
 
 .one-sub-head{
-    width: 80%;
-    height: auto;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .one-logo-div{
@@ -56,7 +62,7 @@
 
 .one-text{
     font-size: 28px;
-    font-family: DINweb;
+    font-family: DIN;
     color: #ffffff;
     text-align: center;
     margin-bottom: 0px;
@@ -73,18 +79,26 @@
 }
 
 .one-input{
+    height: 38px;
     width: 400px;
-    opacity: 0.8;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.3);
     font-size: 22px;
     padding: 1px 0px 1px 4px;
 }
 
+.one-input::placeholder{
+    color: #ffffff;
+}
+
 .one-submit{
     width: 70px;
+    line-height: 38px;
     font-size: 25px;
+    font-weight: bold;
     background-color: #3c3c3b;
     color: #ffffff;
-    border-radius: 4px;
+    border-radius: 5px;
     padding: 2px 28px;
     text-align: center;
     cursor: pointer;
@@ -116,7 +130,7 @@
 
 .two-up-left-header{
     font-family: Branding;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     letter-spacing: 0.1px;
     color: #e24242;
@@ -131,7 +145,7 @@
 }
 
 .two-up-left-text{
-    font-family: DINweb;
+    font-family: DIN;
     font-size: 20px;
     line-height: 1.4;
     letter-spacing: 0.1px;
@@ -146,8 +160,8 @@
 }
 
 .two-up-right-step{
-    width: 360px;
-    height: 112px;
+    width: 455px;
+    height: 142px;
     background: url(../img/2-step.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -158,7 +172,7 @@
 .two-up-right-equal{
     width: 10px;
     height: 12px;
-    margin: 20px;
+    margin: 24px;
     text-align: center;
     line-height: 40px;
     color: #e24242;
@@ -171,8 +185,8 @@
 
 .two-up-right-main-img{
     position: relative;
-    width: 280px;
-    height: 160px;
+    width: 332px;
+    height: 200px;
     padding: 2.5%;
     background: url(../img/2-oven-open.png);
     background-repeat: no-repeat;
@@ -184,9 +198,9 @@
 
 .two-up-right-box{
     position: absolute;
-    right: -114px;
+    right: -122px;
     top: 40px;
-    width: 130px;
+    width: 140px;
     text-align: center;
 }
 
@@ -220,6 +234,7 @@
     background: #e24242;
     color: #eeeeee;
     font-weight: bold;
+    padding: 4px 0px;
 }
 
 /* 2.5 */
@@ -342,8 +357,8 @@
 
 .three-head-h{
     width: 36%;
-    line-height: 56px;
-    font-size: 40px;
+    line-height: 78px;
+    font-size: 60px;
     color: #e24242;
     font-weight: bold;
     letter-spacing: 0.1px;
@@ -351,7 +366,7 @@
 
 .three-head-text{
     width: 33%;
-    font-family: DINweb;
+    font-family: DIN;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.1px;
@@ -406,16 +421,17 @@
 .four-up-head{
     width: auto;
     font-family: Branding;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     letter-spacing: 0.1px;
     text-align: center;
     color: #e24242;
+    margin: 50px 0px 5px;
 }
 
 .four-up-text{
     width: 612px;
-    font-family: DINweb;
+    font-family: DIN;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.1px;
@@ -426,22 +442,23 @@
 
 .four-up-img{
     position: relative;
-    width: 67%;
+    width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+    overflow: hidden;
 }
 
 .four-up-img-video{
     position: absolute;
     /* width: auto;
     height: 100%; */
-    top: 0;
+    top: -30%;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 130%;
 }
 
 /* 4.1 */
@@ -479,7 +496,7 @@
 }
 
 .four-one-left-head{
-    font-family: DINweb;
+    font-family: DIN;
     font-size: 32px;
     font-weight: bold;
     letter-spacing: 0.1px;
@@ -491,7 +508,7 @@
 .four-one-left-text{
     width: 75%;
     padding:0px 12.5%;
-    font-family: DINweb;
+    font-family: DIN;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.1px;
@@ -621,7 +638,7 @@
 .four-five-head-text{
     width: 50%;
     font-family: Branding;
-    font-size: 40px;
+    font-size: 28px;
     font-weight: 500;
     letter-spacing: 0.1px;
     text-align: center;
@@ -635,6 +652,7 @@
 
 .four-five-input{
     width: 50%;
+    font-size: 25px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     border: solid 1px #ffffff;
     background-color: rgba(255, 255, 255, 0.3);
@@ -643,8 +661,15 @@
     padding: 6px;
 }
 
+.four-five-input::placeholder{
+    color: #ffffff;
+}
+
 .four-five-submit{
-    font-family: DINweb;
+    width: 100px;
+    height: 34px;
+    line-height: 34px;
+    font-family: DIN;
     font-size: 25px;
     font-weight: bold;
     letter-spacing: 0.1px;
@@ -652,7 +677,7 @@
     color: #ffffff;
     background-color: #e24242;
     padding: 5px 25px;
-    border-radius: 6px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -660,20 +685,20 @@
 
 .four-six-background{
     position: relative;
-    width: 70%;
+    width: 85%;
     margin: auto;
     padding: 50px 0px;
 }
 
 .four-six-background-img{
     position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 100px;
-    height: 100px;
+    left: 39%;
+    top: 38%;
+    width: 235px;
+    height: 232px;
     background: url(../img/4-6-background-img.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position-x: center;
     background-position-y: center;
 }
@@ -704,7 +729,7 @@
 }
 
 .four-six-text{
-    font-family: DINweb;
+    font-family: DIN;
     font-size: 32px;
     font-weight: 500;
     letter-spacing: 0.1px;
@@ -751,7 +776,7 @@
 }
 
 .five-two-center-text{
-    font-family: DINweb;
+    font-family: DIN;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.1px;
@@ -778,7 +803,7 @@
 
 .six-one-cook-thing{
     width: 100%;
-    height: 350px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -787,7 +812,7 @@
 
 .six-one-cook-one{
     width: 600px;
-    height: 175px;
+    height: 230px;
     display: flex;
     justify-content: space-around;
     margin: auto;
@@ -944,6 +969,7 @@
 }
 
 .six-four-center-text{
+    font-size: 24px;
     color: #ffffff;
 }
 
@@ -958,23 +984,29 @@
 
 .six-four-center-input{
     border: solid 1px #ffffff;
+    font-size: 24px;
     background-color: rgba(255, 255, 255, 0.3);
     color: #ffffff;
     padding-left: 8px;
-    width: 250px;
+    width: 270px;
     margin-right: 10px;
 }
 
+.six-four-center-input::placeholder{
+    color: #ffffff;
+}
+
 .six-four-center-submit{
-    font-family: DINweb;
+    font-family: DIN;
     font-size: 22px;
     font-weight: bold;
     letter-spacing: 0.1px;
     text-align: center;
     color: #ffffff;
     background-color: #e24242;
-    padding: 5px 14px;
+    padding: 5px 16px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 
@@ -983,7 +1015,9 @@
 }
 
 .six-four-right-connect-text{
+    font-size: 24px;
     color: #ffffff;
+    font-weight: bold;
 }
 
 .six-four-right-social{
@@ -1111,7 +1145,7 @@
 
 .seven-flip-book-progress-count{
     width: 8%;
-    font-family: DINweb;
+    font-family: DIN;
     font-size: 18px;
     font-weight: bold;
     line-height: 1.11;
@@ -1218,7 +1252,7 @@
 
 .eight-pop-sub{
     opacity: 0.3;
-    font-family: DINweb;
+    font-family: DIN;
     font-size: 22.2px;
     font-weight: 500;
     color: #262628;
@@ -1278,6 +1312,6 @@
     padding: 4px 24px;
     background-color: #e24242;
     color: white;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
 }
