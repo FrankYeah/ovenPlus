@@ -1,5 +1,7 @@
-$(function() {
 
+
+$(function() {
+  // $(".loading-initial").fadeOut();
 
 
   // var rotateItem = 1;
@@ -439,6 +441,10 @@ function resizeWidthLong(pMatchMedia){
   }
 }
 
+
+// lazy loading
+
+$("img.lazyload").lazyload();
 
 
 });
