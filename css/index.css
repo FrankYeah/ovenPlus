@@ -181,8 +181,8 @@
 }
 
 .two-up-right-step{
-    width: 455px;
-    height: 142px;
+    width: 545px;
+    height: 170px;
     background: url(../img/2-step.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -407,7 +407,7 @@
 
 .three-two-img-box::before{
     content: '';
-    height: 300px;
+    height: 282px;
     width: 100%;
     display: block;
     position: absolute;
@@ -426,7 +426,7 @@
     background-size: contain;
     background-position-x: center;
     background-position-y: center;
-    margin: -10px auto auto;
+    margin: -10px auto -2px;
 }
 
 /* 4 */
@@ -753,12 +753,13 @@
 
 .four-six-text{
     font-family: 'DIN';
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 500;
     letter-spacing: 0.1px;
     text-align: center;
     color: #262628;
     margin: 16px 0px 60px;
+    padding: 0px 15%;
 }
 
 /* 5.1 */
@@ -989,6 +990,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .six-four-center-text{
@@ -1039,7 +1041,7 @@
 
 
 .six-four-right{
-
+    margin-bottom: 12px;
 }
 
 .six-four-right-connect-text{

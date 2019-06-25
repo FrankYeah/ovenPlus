@@ -224,7 +224,7 @@
     }
 
     .three-two-img-box::before{
-        height: 130px;
+        height: 126px;
     }
 
 /* 4 */
@@ -396,6 +396,7 @@
     .four-six-text{
         font-size: 22px;
         margin: 16px 0px 0px;
+        padding: 0px 5%;
     }
 
     .four-six-img-mobile{
@@ -658,7 +659,7 @@
     /* 7 翻書 */
 
     .two-up-right-step{
-        height: 80px;
+        height: 90px;
     }
 
 
@@ -834,9 +835,13 @@
     }
 
     .two-up-right-step{
-        width: 90%;
+        width: 100%;
         background-size: contain;
     }
 
+    /* 3 */
+    .three-two-img{
+        background-size: cover;
+    }
 
 }
