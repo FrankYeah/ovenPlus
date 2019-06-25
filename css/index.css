@@ -92,6 +92,7 @@
 }
 
 .one-input-box{
+    font-family: 'DIN';
     margin: auto;
     display: flex;
     align-items: center;
@@ -114,6 +115,7 @@
     width: 120px;
     height: 38px;
     line-height: 38px;
+    font-family: 'DIN';
     font-size: 25px;
     font-weight: bold;
     background-color: #3c3c3b;
@@ -164,7 +166,7 @@
 }
 
 .two-up-left-text{
-    font-family: DIN;
+    font-family: 'DIN';
     font-size: 20px;
     line-height: 1.4;
     letter-spacing: 0.1px;
@@ -241,6 +243,7 @@
     width: 120px;
     height: 3px;
     background: #e24242;
+    font-family: 'Lato';
     position: absolute;
     top: 18px;
     left: 6px;
@@ -250,6 +253,7 @@
 
 .two-up-right-price-down{
     font-size: 28px;
+    font-family: 'Lato';
     background: #e24242;
     color: #eeeeee;
     font-weight: bold;
@@ -377,6 +381,7 @@
 .three-head-h{
     width: 36%;
     line-height: 78px;
+    font-family: 'Lato';
     font-size: 60px;
     color: #e24242;
     font-weight: bold;
@@ -385,7 +390,7 @@
 
 .three-head-text{
     width: 33%;
-    font-family: DIN;
+    font-family: 'DIN';
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.1px;
@@ -450,7 +455,7 @@
 
 .four-up-text{
     width: 612px;
-    font-family: DIN;
+    font-family: 'DIN';
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.1px;
@@ -515,7 +520,7 @@
 }
 
 .four-one-left-head{
-    font-family: DIN;
+    font-family: 'DIN';
     font-size: 32px;
     font-weight: bold;
     letter-spacing: 0.1px;
@@ -527,7 +532,7 @@
 .four-one-left-text{
     width: 75%;
     padding:0px 12.5%;
-    font-family: DIN;
+    font-family: 'DIN';
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.1px;
@@ -671,6 +676,7 @@
 
 .four-five-input{
     width: 50%;
+    font-family: 'DIN';
     font-size: 25px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     border: solid 1px #ffffff;
@@ -688,7 +694,7 @@
     width: 126px;
     height: 40px;
     line-height: 40px;
-    font-family: DIN;
+    font-family: 'DIN';
     font-size: 25px;
     font-weight: bold;
     letter-spacing: 0.1px;
@@ -747,7 +753,7 @@
 }
 
 .four-six-text{
-    font-family: DIN;
+    font-family: 'DIN';
     font-size: 32px;
     font-weight: 500;
     letter-spacing: 0.1px;
@@ -794,7 +800,7 @@
 }
 
 .five-two-center-text{
-    font-family: DIN;
+    font-family: 'DIN';
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.1px;
@@ -987,6 +993,7 @@
 }
 
 .six-four-center-text{
+    font-family: 'Lato';
     font-size: 24px;
     color: #ffffff;
 }
@@ -1002,6 +1009,7 @@
 
 .six-four-center-input{
     border: solid 1px #ffffff;
+    font-family: 'DIN';
     font-size: 24px;
     background-color: rgba(255, 255, 255, 0.3);
     color: #ffffff;
@@ -1018,7 +1026,7 @@
     width: 110px;
     height: 37px;
     line-height: 37px;
-    font-family: DIN;
+    font-family: 'DIN';
     font-size: 22px;
     font-weight: bold;
     letter-spacing: 0.1px;
@@ -1037,6 +1045,7 @@
 
 .six-four-right-connect-text{
     font-size: 24px;
+    font-family: 'Lato';
     color: #ffffff;
     font-weight: bold;
 }
@@ -1166,7 +1175,7 @@
 
 .seven-flip-book-progress-count{
     width: 8%;
-    font-family: DIN;
+    font-family: 'DIN';
     font-size: 18px;
     font-weight: bold;
     line-height: 1.11;
@@ -1273,7 +1282,7 @@
 
 .eight-pop-sub{
     opacity: 0.3;
-    font-family: DIN;
+    font-family: 'DIN';
     font-size: 22.2px;
     font-weight: 500;
     color: #262628;
