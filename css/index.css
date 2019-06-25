@@ -251,13 +251,7 @@
     transform: rotate(-6deg);
 }
 
-.twentytwenty-before-label::before{
-    content: '' !important;
-}
 
-.twentytwenty-after-label::before{
-    content: '' !important;
-}
 
 .two-up-right-price-down{
     font-size: 28px;
@@ -663,6 +657,14 @@
     font-family: 'DIN';
     font-size: 24px;
     z-index: 1;
+}
+
+.twentytwenty-before-label::before{
+    content: '' !important;
+}
+
+.twentytwenty-after-label::before{
+    content: '' !important;
 }
 
 .four-three-img-name-box-mobile{

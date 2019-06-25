@@ -361,6 +361,16 @@
         z-index: 1;
     } */
 
+    .twentytwenty-before-label::before{
+        content: '' !important;
+    }
+
+    .twentytwenty-after-label::before{
+        content: '' !important;
+    }
+
+
+
     .four-three-img-name-box-mobile{
         display: flex;
         height: 80px;

@@ -401,7 +401,10 @@ function resizeWidth(pMatchMedia){
 
   } else {
 
-    $("#container1").twentytwenty();
+    $("#container1").twentytwenty({
+      before_label: 'OvenPlus',
+      after_label: 'Other Oven'
+    });
 
     $('.four-three-right-img-div-mobile').css('display', 'none');
 
