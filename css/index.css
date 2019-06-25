@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'DIN';
     font-weight: 400;
-    src:  url('../fonts/din-regular.ttf') format("truetype");
+    /* src:  url('../fonts/din-regular.ttf') format("truetype"); */
+    src: url("../fonts/din_regular.otf") format("opentype");
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 
   }
@@ -147,7 +148,7 @@
 }
 
 .two-up-left-header{
-    font-family: Branding;
+    font-family: 'Lato';
     font-size: 60px;
     font-weight: bold;
     letter-spacing: 0.1px;
@@ -438,7 +439,7 @@
 
 .four-up-head{
     width: auto;
-    font-family: Branding;
+    font-family: 'Lato';
     font-size: 60px;
     font-weight: bold;
     letter-spacing: 0.1px;
@@ -655,7 +656,7 @@
 
 .four-five-head-text{
     width: 50%;
-    font-family: Branding;
+    font-family: 'Lato';
     font-size: 28px;
     font-weight: 500;
     letter-spacing: 0.1px;
@@ -736,7 +737,7 @@
 }
 
 .four-six-head{
-    font-family: Branding;
+    font-family: 'Lato';
     font-size: 60px;
     font-weight: bold;
     letter-spacing: 0.1px;
@@ -784,7 +785,7 @@
 }
 
 .five-two-center-head{
-    font-family: Branding;
+    font-family: 'Lato';
     font-size: 40px;
     font-weight: bold;
     letter-spacing: 0.1px;
@@ -810,7 +811,7 @@
 .six-one-specs{
     height: 87px;
     object-fit: contain;
-    font-family: Branding;
+    font-family: 'Lato';
     font-size: 60px;
     font-weight: bold;
     letter-spacing: 0.1px;
