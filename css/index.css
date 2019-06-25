@@ -231,6 +231,7 @@
 
 .two-up-right-price-up{
     position: relative;
+    font-family: 'Lato';
     font-size: 36px;
     color: #e24242;
     font-weight: bold;
@@ -248,7 +249,14 @@
     top: 18px;
     left: 6px;
     transform: rotate(-6deg);
+}
 
+.twentytwenty-before-label::before{
+    content: '' !important;
+}
+
+.twentytwenty-after-label::before{
+    content: '' !important;
 }
 
 .two-up-right-price-down{
