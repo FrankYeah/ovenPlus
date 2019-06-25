@@ -1094,6 +1094,14 @@
     cursor: pointer;
 }
 
+.six-four-right-youtube:hover{
+    background: url(../img/6-youtube-red.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
 .six-four-right-fb{
     width: 14px;
     height: 26px;

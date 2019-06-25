@@ -606,6 +606,7 @@
         width: 100px;
         display: flex;
         justify-content: space-around;
+        padding-left: 25px;
     }
 
     .six-four-right-youtube-mobile{
