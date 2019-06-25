@@ -339,6 +339,44 @@
         overflow: hidden;
     }
 
+    /* .four-three-right-img-div-mobile::before{
+        content: 'OvenPlus';
+        color: #ffffff;
+        position: absolute;
+        left: 20%;
+        top: 10%;
+        font-family: 'DIN';
+        font-size: 18px;
+        z-index: 1;
+    }
+
+    .four-three-right-img-div-mobile::after{
+        content: 'Other Oven';
+        color: #ffffff;
+        position: absolute;
+        right: 20%;
+        top: 10%;
+        font-family: 'DIN';
+        font-size: 18px;
+        z-index: 1;
+    } */
+
+    .four-three-img-name-box-mobile{
+        display: flex;
+        height: 80px;
+        width: 100%;
+        background-color: #e24242;
+    }
+
+    .four-three-img-name-mobile{
+        width: 50%;
+        padding-top: 4px;
+        color: #ffffff;
+        font-family: 'DIN';
+        font-size: 18px;
+        text-align: center;
+    }
+
     .twentytwenty-container{
         position: absolute;
 
