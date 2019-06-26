@@ -214,7 +214,7 @@
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    margin-right: 112px;
+    margin-right: 120px;
 }
 
 .two-up-right-box{
@@ -266,7 +266,7 @@
 
 .two-rotate-div{
     margin: 0 auto;
-    max-width: 850px;
+    max-width: 935px;
     width: 100%;
     display: flex;
     flex-direction: row;
