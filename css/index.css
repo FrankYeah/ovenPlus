@@ -55,7 +55,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
-    padding-left: 55%;
+    padding-left: 50%;
 }
 
 .one-main-head{
@@ -134,7 +134,7 @@
 /* 2 */
 
 .two-up-div{
-    padding: 5% 5% 8%;
+    padding: 5% 50px 8%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,7 +143,7 @@
 .two-up-left{
     width: 385px;
     height: 414px;
-    padding: 2.5%;
+    padding: 2.5% 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,6 +166,7 @@
 }
 
 .two-up-left-text{
+    width: 360px;
     font-family: 'DIN';
     font-size: 20px;
     line-height: 1.4;
@@ -208,7 +209,7 @@
     position: relative;
     width: 332px;
     height: 200px;
-    padding: 2.5%;
+    padding: 2.5% 20px;
     background: url(../img/2-oven-open.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -251,8 +252,6 @@
     transform: rotate(-6deg);
 }
 
-
-
 .two-up-right-price-down{
     font-size: 28px;
     font-family: 'Lato';
@@ -266,7 +265,7 @@
 
 .two-rotate-div{
     margin: 0 auto;
-    max-width: 935px;
+    max-width: 930px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -1011,7 +1010,7 @@
 
 .six-four-left-icon{
     color: white;
-    width: 32px;
+    width: 28px;
     height: 50px;
     background: url(../img/8-icon.png);
     background-repeat: no-repeat;

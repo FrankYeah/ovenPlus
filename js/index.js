@@ -478,7 +478,7 @@ function resizeWidth(pMatchMedia){
     $('.owl-carousel').css('width', '95%');
 
     $("#containerMobile").twentytwenty();
-
+    $('.four-three-right-img-div-mobile').css('display', 'block');
     $('.four-three-right-img-div').css('display', 'none');
 
   } else {
@@ -487,7 +487,7 @@ function resizeWidth(pMatchMedia){
       before_label: 'OvenPlus',
       after_label: 'Other Oven'
     });
-
+    $('.four-three-right-img-div').css('display', 'block');
     $('.four-three-right-img-div-mobile').css('display', 'none');
 
   }
