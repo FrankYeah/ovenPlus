@@ -40,19 +40,42 @@ $(function() {
     $(".owl-carousel").trigger('next.owl.carousel')
   })
 
+  
+  // 正規 email
 
+  function verifyMail (strEmail) {
+    
+    //Regular expression Testing
+    var emailRule = /^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z]+$/;
+    
+    //validate ok or not
+    if(strEmail.search(emailRule)!= -1){
+      return true
+    } else {
+      return false
+    }
 
+  }
   // 表單輸入1
 
 
   $('#submitMailOne').on('click', function() {
 
+    // 姓名
+    var emailOne = $('#inputMailOne').val() || '未填寫';
+
+    // 驗證 mail
+    if(!verifyMail(emailOne)){
+      $('#inputMailOne').css('opacity', '0.5');
+      setTimeout(function(){
+        $('#inputMailOne').css('opacity', '1');
+      },1000)
+      return
+    }
+
     // 上線後再改回來翻書
     window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
     // $('.seven-flip-book-background').css('visibility', 'visible');
-
-    // 姓名
-    var emailOne = $('#inputMailOne').val() || '未填寫';
 
     // post
     var data = {
@@ -75,12 +98,22 @@ $(function() {
 
   $('#submitMailFour').on('click', function() {
 
+    // mail
+    var emailOne = $('#inputMailFour').val() || '未填寫';
+
+    // 驗證 mail
+    if(!verifyMail(emailOne)){
+      $('#inputMailFour').css('opacity', '0.5');
+      setTimeout(function(){
+        $('#inputMailFour').css('opacity', '1');
+      },1000)
+      return
+    }
+
     // 上線後再改回來翻書
     window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
     // $('.seven-flip-book-background').css('visibility', 'visible');
 
-    // mail
-    var emailOne = $('#inputMailFour').val() || '未填寫';
 
     var data = {
       'entry.239322164': emailOne
@@ -102,12 +135,21 @@ $(function() {
 
   $('#submitMailSix').on('click', function() {
 
+    // 姓名
+    var emailOne = $('#inputMailSix').val() || '未填寫';
+
+    // 驗證 mail
+    if(!verifyMail(emailOne)){
+      $('#inputMailSix').css('opacity', '0.5');
+      setTimeout(function(){
+        $('#inputMailSix').css('opacity', '1');
+      },1000)
+      return
+    }
+
     // 上線後再改回來翻書
     window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
     // $('.seven-flip-book-background').css('visibility', 'visible');
-
-    // 姓名
-    var emailOne = $('#inputMailSix').val() || '未填寫';
 
     // post
     var data = {
@@ -130,12 +172,21 @@ $(function() {
 
   $('#submitMailEight').on('click', function() {
 
+    // 姓名
+    var emailOne = $('#inputMailEight').val() || '未填寫';
+
+    // 驗證 mail
+    if(!verifyMail(emailOne)){
+      $('#inputMailEight').css('opacity', '0.5');
+      setTimeout(function(){
+        $('#inputMailEight').css('opacity', '1');
+      },1000)
+      return
+    }
+
     // 上線後再改回來翻書
     window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
     // $('.seven-flip-book-background').css('visibility', 'visible');
-
-    // 姓名
-    var emailOne = $('#inputMailEight').val() || '未填寫';
 
     // post
     var data = {
@@ -265,12 +316,22 @@ $(function() {
 
   $('#submitMailOneMobile').on('click', function() {
     
+    // 姓名
+    var emailOne = $('#inputMailOneMobile').val() || '未填寫';
+
+    // 驗證 mail
+    if(!verifyMail(emailOne)){
+      $('#inputMailOneMobile').css('opacity', '0.5');
+      setTimeout(function(){
+        $('#inputMailOneMobile').css('opacity', '1');
+      },1000)
+      return
+    }
+
     // 上線後再改回來翻書
     window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
     // $('.seven-flip-book-background').css('visibility', 'visible');
 
-    // 姓名
-    var emailOne = $('#inputMailOneMobile').val() || '未填寫';
 
     // post
     var data = {
@@ -294,12 +355,33 @@ $(function() {
 
   $('#submitMailSixMobile').on('click', function() {
 
+    // 姓名
+    var emailOne = $('#inputMailSixMobile').val() || '未填寫';
+    
+    // 驗證 mail
+    if(!verifyMail(emailOne)){
+      $('#inputMailSixMobile').css('opacity', '0.5');
+      setTimeout(function(){
+        $('#inputMailSixMobile').css('opacity', '1');
+      },1000)
+      return
+    }
+
     // 上線後再改回來翻書
     window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
     // $('.seven-flip-book-background').css('visibility', 'visible');
 
     // 姓名
     var emailOne = $('#inputMailSixMobile').val() || '未填寫';
+
+    // 驗證 mail
+    if(!verifyMail(emailOne)){
+      $('#inputMailOneMobile').css('opacity', '0.5');
+      setTimeout(function(){
+        $('#inputMailOneMobile').css('opacity', '1');
+      },1000)
+      return
+    }
 
     // post
     var data = {
