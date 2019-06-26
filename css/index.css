@@ -637,7 +637,7 @@
     overflow: hidden;
 }
 
-.four-three-right-img-div::before{
+/* .four-three-right-img-div::before{
     content: 'OvenPlus';
     color: #ffffff;
     position: absolute;
@@ -657,7 +657,7 @@
     font-family: 'DIN';
     font-size: 24px;
     z-index: 1;
-}
+} */
 
 .twentytwenty-before-label::before{
     content: '' !important;
