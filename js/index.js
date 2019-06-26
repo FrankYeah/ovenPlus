@@ -74,7 +74,7 @@ $(function() {
     }
 
     // 上線後再改回來翻書
-    window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
+    window.open('https://m.me/1209243055905817?ref=jLKyhnD77');
     // $('.seven-flip-book-background').css('visibility', 'visible');
 
     // post
@@ -111,7 +111,7 @@ $(function() {
     }
 
     // 上線後再改回來翻書
-    window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
+    window.open('https://m.me/1209243055905817?ref=jLKyhnD77');
     // $('.seven-flip-book-background').css('visibility', 'visible');
 
 
@@ -148,7 +148,7 @@ $(function() {
     }
 
     // 上線後再改回來翻書
-    window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
+    window.open('https://m.me/1209243055905817?ref=jLKyhnD77');
     // $('.seven-flip-book-background').css('visibility', 'visible');
 
     // post
@@ -185,7 +185,7 @@ $(function() {
     }
 
     // 上線後再改回來翻書
-    window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
+    window.open('https://m.me/1209243055905817?ref=jLKyhnD77');
     // $('.seven-flip-book-background').css('visibility', 'visible');
 
     // post
@@ -329,7 +329,7 @@ $(function() {
     }
 
     // 上線後再改回來翻書
-    window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
+    window.open('https://m.me/1209243055905817?ref=jLKyhnD77');
     // $('.seven-flip-book-background').css('visibility', 'visible');
 
 
@@ -368,7 +368,7 @@ $(function() {
     }
 
     // 上線後再改回來翻書
-    window.open('https://m.me/1209243055905817?ref=n9qtUW1bG');
+    window.open('https://m.me/1209243055905817?ref=jLKyhnD77');
     // $('.seven-flip-book-background').css('visibility', 'visible');
 
     // 姓名
